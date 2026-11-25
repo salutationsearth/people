@@ -1,0 +1,268 @@
+.layout {
+  display: grid;
+  grid-template-columns: 400px minmax(0, 1fr) 376px;
+  grid-template-areas:
+    "left center right"
+    "left path path";
+  align-items: start;
+  gap: 40px 56px;
+}
+
+.left {
+  grid-area: left;
+  display: grid;
+  gap: 28px;
+}
+
+.center {
+  grid-area: center;
+}
+
+.right {
+  grid-area: right;
+  display: grid;
+  gap: 24px;
+}
+
+.path {
+  grid-area: path;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  border-radius: var(--radius-pill);
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+
+.badge svg {
+  width: 16px;
+  height: 16px;
+}
+
+.won {
+  background: var(--match);
+  color: var(--match-ink);
+}
+
+.lost {
+  background: var(--miss);
+  color: var(--miss-ink);
+}
+
+.kicker {
+  margin-top: 16px;
+  color: var(--ink-muted);
+}
+
+.answer {
+  font-family: var(--font-display-stack);
+  font-weight: 800;
+  font-size: clamp(56px, 8vw, 88px);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin: 8px 0 12px;
+  overflow-wrap: anywhere;
+}
+
+.where {
+  font-size: 17px;
+}
+
+.h2 {
+  font-family: var(--font-display-stack);
+  font-size: var(--text-lg);
+  margin: 32px 0 10px;
+}
+
+.path .h2 {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.blurb {
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.links {
+  display: flex;
+  gap: 16px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.facts {
+  display: grid;
+  grid-template-columns: 108px 1fr;
+  margin-top: 24px;
+}
+
+.facts dt,
+.facts dd {
+  padding: 12px 0;
+  border-top: 1px solid var(--line);
+}
+
+.facts dt {
+  font-size: var(--text-sm);
+  color: var(--ink-muted);
+}
+
+.card {
+  padding: 20px;
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+}
+
+.cardHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 14px;
+}
+
+.cardHead h2 {
+  font-family: var(--font-display-stack);
+  font-size: var(--text-lg);
+}
+
+.cardHead span {
+  font-size: 13px;
+  color: var(--ink-muted);
+}
+
+.grid {
+  list-style: none;
+  display: grid;
+  gap: 5px;
+}
+
+.grid li {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.sq {
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.sqMatch {
+  background: var(--match);
+  color: var(--match-ink);
+}
+
+.sqPartial {
+  background: var(--partial);
+}
+
+.sqMiss {
+  background: var(--miss);
+}
+
+.sqNeutral {
+  background: var(--neutral);
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+
+.dir {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: 10px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.dir svg {
+  width: 14px;
+  height: 14px;
+}
+
+.share {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  margin-top: 18px;
+  padding: 14px;
+  border-radius: var(--radius-md);
+  background: var(--accent);
+  color: var(--accent-ink);
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.fine {
+  margin-top: 10px;
+  font-size: 13px;
+  color: var(--ink-muted);
+  text-align: center;
+}
+
+.next {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 16px;
+  padding: 20px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.next p {
+  font-size: var(--text-sm);
+  color: var(--ink-muted);
+}
+
+.next .fine {
+  margin: 0;
+  text-align: right;
+}
+
+.countdown {
+  font-family: var(--font-display-stack);
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+}
+
+.mini figcaption {
+  margin-top: 8px;
+  font-size: 13px;
+  color: var(--ink-muted);
+}
+
+.miniMap {
+  height: 300px;
+}
+
+@media (max-width: 1180px) {
+  .layout {
+    grid-template-columns: minmax(0, 1fr) 340px;
+    grid-template-areas:
+      "center right"
+      "path path"
+      "left left";
+  }
+}
+
+@media (max-width: 860px) {
+  .layout {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "center" "right" "path" "left";
+    gap: 32px;
+  }
+}

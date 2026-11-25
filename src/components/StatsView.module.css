@@ -1,0 +1,51 @@
+.numbers {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.numbers div {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.numbers dd {
+  font-family: var(--font-display-stack);
+  font-weight: 800;
+  font-size: var(--text-xl);
+  line-height: 1.1;
+}
+
+.numbers dt {
+  font-size: 13px;
+  color: var(--ink-muted);
+}
+
+.distribution {
+  list-style: none;
+  display: grid;
+  gap: 6px;
+}
+
+.distribution li {
+  display: grid;
+  grid-template-columns: 16px 1fr;
+  gap: 10px;
+  align-items: center;
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+
+.bar {
+  display: block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: var(--miss);
+  color: var(--miss-ink);
+  text-align: right;
+}
+
+.bar.current {
+  background: var(--match);
+  color: var(--match-ink);
+}

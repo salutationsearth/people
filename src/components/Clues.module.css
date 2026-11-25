@@ -1,0 +1,68 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--line);
+}
+
+.header h2 {
+  font-family: var(--font-display-stack);
+  font-size: var(--text-lg);
+}
+
+.header span {
+  font-size: var(--text-sm);
+  color: var(--ink-muted);
+}
+
+.list {
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  gap: 16px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.icon {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--accent-soft);
+  color: var(--accent-soft-ink);
+}
+
+.icon svg {
+  width: 16px;
+  height: 16px;
+}
+
+.label {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent-soft-ink);
+}
+
+.locked {
+  align-items: center;
+  color: var(--ink-muted);
+}
+
+.locked .icon {
+  background: none;
+  border: 1.5px dashed var(--line);
+  color: var(--ink-muted);
+}
+
+.item p {
+  line-height: 1.4;
+}

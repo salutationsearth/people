@@ -1,0 +1,169 @@
+.main {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 32px 24px 64px;
+}
+
+.status {
+  padding: 80px 0;
+  text-align: center;
+  color: var(--ink-muted);
+}
+
+.play {
+  display: grid;
+  grid-template-columns: 400px minmax(0, 1fr);
+  gap: 56px;
+  align-items: start;
+}
+
+.left {
+  display: grid;
+  gap: 28px;
+}
+
+.title {
+  font-family: var(--font-display-stack);
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.15;
+}
+
+.sub {
+  margin-top: 10px;
+  color: var(--ink-muted);
+  font-size: 15px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.progress {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.progress h2 {
+  font-family: var(--font-display-stack);
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.progress strong {
+  font-weight: 800;
+}
+
+.pips {
+  list-style: none;
+  display: flex;
+  gap: 5px;
+}
+
+.pips li {
+  width: 22px;
+  height: 5px;
+  border-radius: 3px;
+  background: var(--line);
+}
+
+.pips .used {
+  background: var(--ink);
+}
+
+.pips .current {
+  background: var(--accent);
+}
+
+.inputSlot {
+  order: 2;
+}
+
+.boardSlot {
+  order: 1;
+}
+
+.modalH3 {
+  font-family: var(--font-display-stack);
+  font-size: var(--text-lg);
+}
+
+.mapWrap {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+}
+
+.mapNote {
+  position: absolute;
+  left: 16px;
+  bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 14px;
+  border-radius: var(--radius-sm);
+  background: var(--surface-raised);
+  box-shadow: 0 1px 4px rgb(0 0 0 / 0.12);
+  font-size: var(--text-sm);
+  margin-right: 16px;
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 10px;
+  font-size: var(--text-sm);
+  color: var(--ink-muted);
+}
+
+.legend > span:last-child {
+  margin-left: 14px;
+}
+
+.legendDot,
+.legendGuess {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--dot);
+}
+
+.legendGuess {
+  width: 12px;
+  height: 12px;
+  margin-left: 14px;
+  background: var(--accent);
+  border: 2px solid var(--ground);
+  box-shadow: 0 0 0 1px var(--accent);
+}
+
+@media (max-width: 1080px) {
+  .play {
+    grid-template-columns: 320px minmax(0, 1fr);
+    gap: 32px;
+  }
+}
+
+@media (max-width: 860px) {
+  .main {
+    padding: 20px 16px 48px;
+  }
+
+  .play {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 36px;
+  }
+
+  .title {
+    font-size: 26px;
+  }
+
+  .inputSlot {
+    order: 0;
+  }
+}

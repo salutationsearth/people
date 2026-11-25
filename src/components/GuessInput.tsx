@@ -41,7 +41,7 @@ export function GuessInput({ groups, exclude, onGuess }: Props) {
 
   const submit = () => {
     const exact = results.find((r) => [r.group.name, ...r.group.aliases].some((n) => normalize(n) === normalize(query)));
-    const choice = expanded ? shown[active] : exact;
+    const choice = expanded && (active > 0 || !exact) ? shown[active] : exact;
     if (choice) pick(choice.group);
     else setError(query.trim() ? "Pick a people from the list." : "Type a people, tribe or ethnic group.");
   };

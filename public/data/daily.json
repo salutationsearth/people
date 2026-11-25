@@ -1,0 +1,35 @@
+[
+  {
+    "groupId": "10239",
+    "blurb": "Gold-weight traders of the forest belt, famous for kente cloth and the Golden Stool.",
+    "clues": {
+      "greeting": "Akwaaba! — the word that welcomes you at every door.",
+      "dress": "Hand-woven strip cloth in gold, green and black, each pattern with its own name.",
+      "food": "Pounded cassava and plantain served with light, peppery soup.",
+      "music": "Talking drums that can recite proverbs and the names of kings.",
+      "symbols": "Adinkra stamps: Gye Nyame, Sankofa and dozens more."
+    }
+  },
+  {
+    "groupId": "11082",
+    "blurb": "A nation forged in the nineteenth century, known for its beadwork and harmonies.",
+    "clues": {
+      "greeting": "Sawubona — literally, 'I see you'.",
+      "dress": "Colourful beadwork whose colours spell out messages.",
+      "food": "Stiff maize porridge with amasi, fermented milk.",
+      "music": "Isicathamiya: soft-stepping a cappella choirs.",
+      "symbols": "The cowhide shield and short stabbing spear."
+    }
+  },
+  {
+    "groupId": "11809",
+    "blurb": "City builders of the forest and savanna, with a vast pantheon and a talking-drum tradition.",
+    "clues": {
+      "greeting": "Ẹ káàárọ̀ — good morning, with a bow or kneel to elders.",
+      "dress": "Agbada robes and tall gele head-ties for celebrations.",
+      "food": "Pounded yam with egusi melon-seed stew.",
+      "music": "Jùjú and fújì, led by the dùndún talking drum.",
+      "symbols": "Bronze heads of an ancient sacred city."
+    }
+  }
+]

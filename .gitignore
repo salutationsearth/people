@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# generated data (Joshua Project terms: do not republish the full dataset in the repo)
+/public/data/groups.json
+/.cache/

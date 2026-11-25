@@ -3,11 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "node scripts/build-data.mts && next dev",
+    "build": "node scripts/build-data.mts && next build",
     "start": "next start",
     "lint": "eslint",
-    "typecheck": "next typegen && tsc --noEmit"
+    "typecheck": "next typegen && tsc --noEmit",
+    "data:refs": "node scripts/build-refs.mts",
+    "data:build": "node scripts/build-data.mts",
+    "test": "node --test \"scripts/**/*.test.mts\""
   },
   "dependencies": {
     "maplibre-gl": "^6.19.0",

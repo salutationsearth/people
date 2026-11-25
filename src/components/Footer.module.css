@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 24px;
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 24px;
+  border-top: 1px solid var(--color-line);
+  font-size: 13px;
+  color: var(--color-ink-muted);
+}
+
+.footer a {
+  color: inherit;
+}

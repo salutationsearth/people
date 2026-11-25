@@ -1,0 +1,139 @@
+.main {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 28px 24px 56px;
+}
+
+.status {
+  padding: 64px 0;
+  text-align: center;
+  color: var(--color-ink-muted);
+}
+
+.play {
+  display: grid;
+  grid-template-columns: 380px minmax(0, 1fr);
+  gap: 56px;
+  align-items: start;
+}
+
+.left {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 32px;
+}
+
+.number {
+  justify-self: start;
+  padding: 3px 12px;
+  border-radius: var(--radius-pill);
+  background: var(--color-surface);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.right {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 22px;
+}
+
+.progress {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.progress h1 {
+  font-family: var(--font-display-stack);
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 34px;
+  letter-spacing: -0.025em;
+}
+
+.progress h1 span {
+  color: var(--color-ink-muted);
+  font-weight: 500;
+}
+
+.pips {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.pips li {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 1.5px solid var(--color-line);
+}
+
+.pips .used {
+  border-color: var(--color-ink);
+  background: var(--color-ink);
+}
+
+.pips .current {
+  border-color: var(--color-cobalt);
+  background: var(--color-cobalt);
+  box-shadow: 0 0 0 3px var(--color-cobalt-soft);
+}
+
+.mapWrap {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+}
+
+.mapNote {
+  position: absolute;
+  left: 16px;
+  bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 16px 8px 14px;
+  border-radius: var(--radius-pill);
+  background: var(--color-elevated);
+  box-shadow: 0 3px 0 var(--color-tile-shadow);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+@media (max-width: 1080px) {
+  .play {
+    grid-template-columns: 300px minmax(0, 1fr);
+    gap: 32px;
+  }
+}
+
+@media (max-width: 860px) {
+  .main {
+    padding: 12px 16px 24px;
+  }
+
+  .play {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+  }
+
+  .left {
+    gap: 22px;
+  }
+
+  .progress h1 {
+    font-size: 28px;
+  }
+
+  .inputSlot {
+    position: sticky;
+    z-index: 10;
+    bottom: 0;
+    margin: 0 -16px;
+    padding: 12px 16px max(12px, env(safe-area-inset-bottom));
+    border-top: 1px solid var(--color-line);
+    background: var(--color-ground);
+  }
+}

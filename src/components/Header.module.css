@@ -1,0 +1,77 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 20px 24px 12px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.wordmark {
+  font-family: var(--font-display-stack);
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.wordmark span {
+  color: var(--color-cobalt);
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.actions button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 42px;
+  height: 42px;
+  border-radius: var(--radius-pill);
+  background: var(--color-surface);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.actions .pill {
+  width: auto;
+  padding: 0 16px 0 14px;
+}
+
+.actions button:hover {
+  background: var(--color-line);
+}
+
+@media (max-width: 860px) {
+  .header {
+    padding: 14px 16px 8px;
+  }
+
+  .wordmark {
+    font-size: 26px;
+  }
+
+  .actions {
+    gap: 6px;
+  }
+
+  .actions .pill {
+    width: 42px;
+    padding: 0;
+  }
+
+  .pill span {
+    display: none;
+  }
+}

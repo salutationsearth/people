@@ -1,0 +1,129 @@
+.lede {
+  margin-top: -6px;
+  color: var(--color-ink-muted);
+  font-size: 17px;
+}
+
+.example {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 10px;
+  font-size: var(--text-sm);
+  color: var(--color-ink-muted);
+}
+
+.example strong {
+  font-family: var(--font-display-stack);
+  font-size: var(--text-lg);
+  font-weight: 800;
+  color: var(--color-ink);
+}
+
+.tilesRow {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.tilesRow > div {
+  grid-template-areas: "label icon" "value value";
+}
+
+.tilesRow > div > span:first-child {
+  display: block;
+}
+
+@media (max-width: 860px) {
+  .tilesRow {
+    gap: 6px;
+  }
+
+  .tilesRow > div {
+    padding: 8px;
+    min-height: 70px;
+  }
+
+  .tilesRow > div > span {
+    font-size: 13px;
+  }
+}
+
+.key {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px 24px;
+}
+
+.key li {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-weight: 700;
+}
+
+.swatch {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  box-shadow: 0 3px 0 var(--color-tile-shadow);
+}
+
+.swatch svg {
+  width: 16px;
+  height: 16px;
+}
+
+.match {
+  background: var(--color-match);
+  color: var(--color-on-match);
+}
+
+.partial {
+  background: var(--color-partial);
+  color: var(--color-on-partial);
+}
+
+.miss {
+  background: var(--color-miss);
+  color: var(--color-on-miss);
+}
+
+.neutral {
+  background: var(--color-surface);
+}
+
+.distance {
+  background: var(--color-cobalt-soft);
+  color: var(--color-cobalt);
+}
+
+.note {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 18px;
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  font-weight: 600;
+}
+
+.start {
+  height: 54px;
+  border-radius: var(--radius-lg);
+  background: var(--color-cobalt);
+  color: var(--color-on-cobalt);
+  box-shadow: 0 4px 0 var(--color-tile-shadow);
+  font-size: 18px;
+  font-weight: 800;
+}
+
+@media (max-width: 860px) {
+  .key {
+    grid-template-columns: 1fr;
+  }
+}

@@ -7,6 +7,15 @@ pnpm install
 pnpm dev
 ```
 
+## Demo mode
+
+Add `?day=` to the URL to play a specific puzzle without touching the real daily game:
+
+- `?day=N` plays puzzle No. N from the daily schedule (the same number the game shows on that day).
+- `?day=<groupId>` plays the daily-pool entry for that Joshua Project PeopleID, for example `?day=10218` for the Akan.
+
+A small "demo" tag sits next to the puzzle number. Demo games keep progress and stats in memory only, so they never read or overwrite the saved daily game, and a reload starts the puzzle fresh. `src/lib/game.test.mts` covers both forms.
+
 ## Data
 
 `public/data/groups.json` is generated, not committed. `pnpm dev` and `pnpm build` run `scripts/build-data.mts` first, which:

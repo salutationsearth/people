@@ -10,7 +10,7 @@
     "typecheck": "next typegen && tsc --noEmit",
     "data:refs": "node scripts/build-refs.mts",
     "data:build": "node scripts/build-data.mts",
-    "test": "node --test \"scripts/**/*.test.mts\""
+    "test": "node --test \"scripts/**/*.test.mts\" \"src/**/*.test.mts\""
   },
   "dependencies": {
     "maplibre-gl": "^6.19.0",

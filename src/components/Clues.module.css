@@ -1,0 +1,91 @@
+.clues {
+  display: grid;
+  gap: 10px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-display-stack);
+  font-weight: 800;
+  font-size: var(--text-lg);
+  letter-spacing: -0.01em;
+}
+
+.count {
+  padding: 1px 8px;
+  border-radius: var(--radius-pill);
+  background: var(--color-cobalt-soft);
+  color: var(--color-cobalt);
+  font: 800 13px/20px var(--font-ui-stack);
+}
+
+.list {
+  list-style: none;
+  display: grid;
+  gap: 6px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 40px;
+}
+
+.icon {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 12px;
+  background: var(--color-cobalt-soft);
+  color: var(--color-cobalt);
+}
+
+.icon svg {
+  width: 18px;
+  height: 18px;
+}
+
+.label {
+  flex: none;
+  width: 70px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--color-ink-muted);
+}
+
+.text {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.locked {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding-top: 4px;
+}
+
+.locked li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  height: 30px;
+  padding: 0 12px 0 10px;
+  border: 1.5px dashed var(--color-line);
+  border-radius: var(--radius-pill);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-ink-muted);
+}
+
+.locked svg {
+  width: 14px;
+  height: 14px;
+}

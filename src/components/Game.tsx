@@ -1,8 +1,18 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { MAX_GUESSES, compare, dailyEntry, dayIndex, type GroupSummary } from "@/lib/game";
-import { hasSeenHowToPlay, loadProgress, loadStats, markHowToPlaySeen, recordResult, saveProgress, type Stats } from "@/lib/storage";
+import { MAX_GUESSES, compare, dayIndex, demoPuzzle, puzzleForDay, type GroupSummary } from "@/lib/game";
+import {
+  applyResult,
+  emptyStats,
+  hasSeenHowToPlay,
+  loadProgress,
+  loadStats,
+  markHowToPlaySeen,
+  recordResult,
+  saveProgress,
+  type Stats,
+} from "@/lib/storage";
 import type { DailyEntry, Group } from "@/lib/types";
 import { Board, type Row } from "./Board";
 import { CLUE_COUNT, Clues } from "./Clues";
@@ -29,12 +39,15 @@ export function Game() {
   const [stats, setStats] = useState<Stats | null>(null);
   const [panel, setPanel] = useState<Panel>(null);
   const [fresh, setFresh] = useState(false);
+  const [demo, setDemo] = useState<string | null>(null);
 
   const startDay = useCallback(() => {
     const now = new Date();
+    const demoParam = new URLSearchParams(location.search).get("day");
+    setDemo(demoParam);
     setToday(now);
-    setGuessIds(loadProgress(dayIndex(now)));
-    setStats(loadStats());
+    setGuessIds(demoParam === null ? loadProgress(dayIndex(now)) : []);
+    setStats(demoParam === null ? loadStats() : emptyStats());
     setFresh(false);
   }, []);
 
@@ -53,8 +66,9 @@ export function Game() {
       .catch(fail);
   }, [startDay]);
 
-  const day = today ? dayIndex(today) : null;
-  const entry = data && today ? dailyEntry(data.daily, data.byId, today) : null;
+  const scheduled = !data || !today ? null : demo === null ? puzzleForDay(data.daily, data.byId, dayIndex(today)) : demoPuzzle(data.daily, data.byId, demo);
+  const day = scheduled?.day ?? null;
+  const entry = scheduled?.entry ?? null;
   const target = entry && data ? data.byId.get(entry.groupId)! : null;
   const answer = entry && full ? (full.get(entry.groupId) ?? null) : null;
   const guessed = guessIds.filter((id) => data?.byId.has(id));
@@ -75,9 +89,14 @@ export function Game() {
     const next = [...guessIds, group.id];
     setGuessIds(next);
     setFresh(true);
-    saveProgress({ day, guesses: next });
     const correct = group.id === entry.groupId;
-    if (correct || next.length >= MAX_GUESSES) setStats(recordResult(day, correct, next.length));
+    const finished = correct || next.length >= MAX_GUESSES;
+    if (demo !== null) {
+      if (finished) setStats((s) => applyResult(s ?? emptyStats(), day, correct, next.length));
+      return;
+    }
+    saveProgress({ day, guesses: next });
+    if (finished) setStats(recordResult(day, correct, next.length));
   };
 
   const closePanel = () => {
@@ -88,6 +107,12 @@ export function Game() {
   const misses = guessed.filter((id) => id !== entry?.groupId).length;
   const unlocked = Math.min(CLUE_COUNT, misses + (answer?.photo ? 0 : 1));
   const puzzle = day === null ? 0 : day + 1;
+  const number = (
+    <>
+      No. {puzzle}
+      {demo !== null && <span className="demo-tag">demo</span>}
+    </>
+  );
 
   return (
     <>
@@ -98,18 +123,18 @@ export function Game() {
         ) : !data || !today || !stats ? (
           <p className={styles.status}>Loading today&apos;s people…</p>
         ) : !entry || !target ? (
-          <p className={styles.status}>No puzzle today. Check back soon.</p>
+          <p className={styles.status}>{demo === null ? "No puzzle today. Check back soon." : "No puzzle for that day."}</p>
         ) : over && !answer ? (
           <p className={styles.status}>Loading today&apos;s answer…</p>
         ) : over && answer ? (
-          <EndView index={data.index} answer={answer} entry={entry} rows={rows} won={won} puzzle={puzzle} stats={stats} onNewDay={startDay} />
+          <EndView index={data.index} answer={answer} entry={entry} rows={rows} won={won} puzzle={puzzle} demo={demo !== null} stats={stats} onNewDay={startDay} />
         ) : (
           <div className={styles.play}>
             <aside className={styles.left}>
               {answer?.photo ? (
-                <Portrait photo={answer.photo} badge={`No. ${puzzle}`} />
+                <Portrait photo={answer.photo} badge={number} />
               ) : (
-                <p className={styles.number}>No. {puzzle}</p>
+                <p className={styles.number}>{number}</p>
               )}
               <Clues clues={entry.clues} unlocked={unlocked} />
             </aside>

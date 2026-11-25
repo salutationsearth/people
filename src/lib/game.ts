@@ -58,17 +58,31 @@ function mulberry32(seed: number) {
   };
 }
 
-export function dailyEntry(entries: DailyEntry[], groupIds: { has(id: string): boolean }, date: Date): DailyEntry | null {
-  const pool = entries.filter((e) => groupIds.has(e.groupId));
-  if (pool.length === 0) return null;
+type IdSet = { has(id: string): boolean };
+export type Puzzle = { day: number; entry: DailyEntry };
+
+function schedule(entries: DailyEntry[], groupIds: IdSet): DailyEntry[] {
+  const shuffled = entries.filter((e) => groupIds.has(e.groupId));
   const random = mulberry32(20260101);
-  const shuffled = [...pool];
   for (let i = shuffled.length - 1; i > 0; i--) {
     const j = Math.floor(random() * (i + 1));
     [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
   }
-  const n = shuffled.length;
-  return shuffled[((dayIndex(date) % n) + n) % n];
+  return shuffled;
+}
+
+export function puzzleForDay(entries: DailyEntry[], groupIds: IdSet, day: number): Puzzle | null {
+  const pool = schedule(entries, groupIds);
+  if (pool.length === 0) return null;
+  return { day, entry: pool[((day % pool.length) + pool.length) % pool.length] };
+}
+
+export function demoPuzzle(entries: DailyEntry[], groupIds: IdSet, param: string): Puzzle | null {
+  const pool = schedule(entries, groupIds);
+  const byGroup = pool.findIndex((e) => e.groupId === param);
+  if (byGroup >= 0) return { day: byGroup, entry: pool[byGroup] };
+  if (!/^\d+$/.test(param) || Number(param) < 1) return null;
+  return puzzleForDay(entries, groupIds, Number(param) - 1);
 }
 
 export function normalize(text: string): string {

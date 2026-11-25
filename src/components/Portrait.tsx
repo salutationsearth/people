@@ -1,7 +1,8 @@
+import type { ReactNode } from "react";
 import type { Group } from "@/lib/types";
 import styles from "./Portrait.module.css";
 
-export function Portrait({ photo, badge }: { photo: NonNullable<Group["photo"]>; badge: string }) {
+export function Portrait({ photo, badge }: { photo: NonNullable<Group["photo"]>; badge: ReactNode }) {
   return (
     <figure className={styles.portrait}>
       {/* eslint-disable-next-line @next/next/no-img-element */}

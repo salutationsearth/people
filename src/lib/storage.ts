@@ -45,8 +45,7 @@ export function loadStats(): Stats {
   return { ...emptyStats(), ...read<Stats>(STATS_KEY) };
 }
 
-export function recordResult(day: number, won: boolean, guesses: number): Stats {
-  const stats = loadStats();
+export function applyResult(stats: Stats, day: number, won: boolean, guesses: number): Stats {
   if (stats.lastDay === day) return stats;
   const streak = won ? (stats.lastDay === day - 1 ? stats.currentStreak + 1 : 1) : 0;
   const distribution = [...stats.distribution];
@@ -59,6 +58,11 @@ export function recordResult(day: number, won: boolean, guesses: number): Stats 
     distribution,
     lastDay: day,
   };
+  return next;
+}
+
+export function recordResult(day: number, won: boolean, guesses: number): Stats {
+  const next = applyResult(loadStats(), day, won, guesses);
   localStorage.setItem(STATS_KEY, JSON.stringify(next));
   return next;
 }

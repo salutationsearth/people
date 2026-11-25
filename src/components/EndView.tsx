@@ -17,6 +17,7 @@ type Props = {
   rows: Row[];
   won: boolean;
   puzzle: number;
+  demo: boolean;
   stats: Stats;
   onNewDay: () => void;
 };
@@ -49,7 +50,7 @@ function Countdown({ onNewDay }: { onNewDay: () => void }) {
 
 const TONE: Record<TileState, string> = { match: styles.sqMatch, partial: styles.sqPartial, miss: styles.sqMiss };
 
-function ShareCard({ rows, won, puzzle }: { rows: Row[]; won: boolean; puzzle: number }) {
+function ShareCard({ rows, won, puzzle, demo }: { rows: Row[]; won: boolean; puzzle: number; demo: boolean }) {
   const [copied, setCopied] = useState(false);
   const share = async () => {
     await navigator.clipboard.writeText(shareText(puzzle, rows.map((r) => r.feedback), won, location.origin));
@@ -59,7 +60,10 @@ function ShareCard({ rows, won, puzzle }: { rows: Row[]; won: boolean; puzzle: n
   return (
     <section className={styles.card} aria-label="Your result">
       <header className={styles.cardHead}>
-        <h2>peoPLE #{puzzle}</h2>
+        <h2>
+          peoPLE #{puzzle}
+          {demo && <span className="demo-tag">demo</span>}
+        </h2>
         <span>
           {won ? rows.length : "X"}/{MAX_GUESSES}
         </span>
@@ -100,7 +104,7 @@ const CONFETTI = Array.from({ length: 18 }, (_, i) => ({
   delay: `${(i % 6) * 70}ms`,
 }));
 
-export function EndView({ index, answer, entry, rows, won, puzzle, stats, onNewDay }: Props) {
+export function EndView({ index, answer, entry, rows, won, puzzle, demo, stats, onNewDay }: Props) {
   const countries = answer.primaryCountries.map((iso) => answer.countries.find((c) => c.iso3 === iso)?.name ?? iso);
   const language = [answer.languageBranch, answer.languageFamily].filter(Boolean).join(" · ") || answer.language.name;
   const learnMore =
@@ -135,7 +139,7 @@ export function EndView({ index, answer, entry, rows, won, puzzle, stats, onNewD
       </section>
 
       <aside className={styles.side}>
-        <ShareCard rows={rows} won={won} puzzle={puzzle} />
+        <ShareCard rows={rows} won={won} puzzle={puzzle} demo={demo} />
         <div className={styles.next}>
           <div>
             <p>Next people in</p>

@@ -1,35 +1,706 @@
 [
   {
-    "groupId": "10239",
-    "blurb": "Gold-weight traders of the forest belt, famous for kente cloth and the Golden Stool.",
+    "groupId": "12051",
+    "blurb": "The largest people group on Earth, spread from a vast northern plain to every continent.",
     "clues": {
-      "greeting": "Akwaaba! — the word that welcomes you at every door.",
-      "dress": "Hand-woven strip cloth in gold, green and black, each pattern with its own name.",
-      "food": "Pounded cassava and plantain served with light, peppery soup.",
-      "music": "Talking drums that can recite proverbs and the names of kings.",
-      "symbols": "Adinkra stamps: Gye Nyame, Sankofa and dozens more."
+      "greeting": "Nǐ hǎo: two syllables, two tones.",
+      "dress": "The high-collared qipao, and a revival of flowing hanfu robes.",
+      "food": "Hand-pulled noodles, and dumplings folded for the new year.",
+      "music": "The Lantern Festival closes the spring new-year season.",
+      "symbols": "Red for luck, dragons for power, and the character 福 hung upside down."
     }
   },
   {
-    "groupId": "11082",
-    "blurb": "A nation forged in the nineteenth century, known for its beadwork and harmonies.",
+    "groupId": "18605",
+    "blurb": "Herders of the high steppe, in a country where horses outnumber people.",
     "clues": {
-      "greeting": "Sawubona — literally, 'I see you'.",
-      "dress": "Colourful beadwork whose colours spell out messages.",
-      "food": "Stiff maize porridge with amasi, fermented milk.",
-      "music": "Isicathamiya: soft-stepping a cappella choirs.",
-      "symbols": "The cowhide shield and short stabbing spear."
+      "greeting": "Sain baina uu? Often followed by asking after your animals.",
+      "dress": "The deel, a long wrap robe tied with a bright silk sash.",
+      "food": "Buuz steamed dumplings and salty milk tea.",
+      "music": "Throat singing, the horsehead fiddle, and the Naadam games.",
+      "symbols": "The round felt ger and the Soyombo emblem."
     }
   },
   {
-    "groupId": "11809",
-    "blurb": "City builders of the forest and savanna, with a vast pantheon and a talking-drum tradition.",
+    "groupId": "11136",
+    "blurb": "Islanders of a former seafaring kingdom, famous for long and healthy lives.",
     "clues": {
-      "greeting": "Ẹ káàárọ̀ — good morning, with a bow or kneel to elders.",
-      "dress": "Agbada robes and tall gele head-ties for celebrations.",
-      "food": "Pounded yam with egusi melon-seed stew.",
-      "music": "Jùjú and fújì, led by the dùndún talking drum.",
-      "symbols": "Bronze heads of an ancient sacred city."
+      "greeting": "Haisai! (or haitai, if you are a woman).",
+      "dress": "Bingata: stencil-dyed cloth in vivid yellows and blues.",
+      "food": "Champuru stir-fry with bitter melon, and purple sweet potato.",
+      "music": "The three-stringed sanshin and the Eisa drum dance.",
+      "symbols": "Shisa lion-dogs guarding the rooftops."
+    }
+  },
+  {
+    "groupId": "18443",
+    "blurb": "Mountain villagers known for wooden drum towers and many-voiced choirs.",
+    "clues": {
+      "greeting": "Guests are welcomed at the village gate with rice wine and a song.",
+      "dress": "Indigo cloth beaten to a bronze sheen, with silver neck rings for festivals.",
+      "food": "Sour fish preserved in rice, and savoury oil tea.",
+      "music": "Grand Song: unaccompanied polyphonic choirs, listed by UNESCO.",
+      "symbols": "Drum towers and roofed 'wind and rain' bridges."
+    }
+  },
+  {
+    "groupId": "10606",
+    "blurb": "A Hindu island culture in a mostly Muslim archipelago, where small offerings line every street.",
+    "clues": {
+      "greeting": "Om Swastiastu, with palms pressed together.",
+      "dress": "A sarong, a temple sash, and the udeng headcloth for men.",
+      "food": "Babi guling, spit-roast pork, and lawar spiced salad.",
+      "music": "Gamelan orchestras and the hypnotic Kecak chant.",
+      "symbols": "Canang sari offerings and split temple gates."
+    }
+  },
+  {
+    "groupId": "13724",
+    "blurb": "The world's largest matrilineal society: land and houses pass down through women.",
+    "clues": {
+      "greeting": "Baa kaba? What's the news?",
+      "dress": "A women's headdress folded into the shape of buffalo horns.",
+      "food": "Rendang, beef slow-cooked in coconut until it caramelises.",
+      "music": "Talempong gong-chimes and the saluang bamboo flute.",
+      "symbols": "Houses with roofs that sweep up like horns."
+    }
+  },
+  {
+    "groupId": "15799",
+    "blurb": "Islanders of the central archipelago whose language rivals the national one in speakers.",
+    "clues": {
+      "greeting": "Maayong buntag! Good morning.",
+      "dress": "The sheer, embroidered barong shirt for formal days.",
+      "food": "Lechon: roast pig with crackling skin.",
+      "music": "Sinulog: a street festival of dancers swaying to drums.",
+      "symbols": "The Santo Niño, and a cross planted by Magellan's crew."
+    }
+  },
+  {
+    "groupId": "12167",
+    "blurb": "Longhouse communities of the river country, where a whole village can live under one roof.",
+    "clues": {
+      "greeting": "Nama berita? What's the news?",
+      "dress": "Pua kumbu: sacred ikat cloths woven by women.",
+      "food": "Pansuh: meat or fish cooked inside a bamboo tube.",
+      "music": "The Gawai harvest festival and the ngajat dance to gongs.",
+      "symbols": "The hornbill, messenger to the spirit world."
+    }
+  },
+  {
+    "groupId": "14371",
+    "blurb": "Heirs of an ancient empire and a poetry tradition that is still quoted every day.",
+    "clues": {
+      "greeting": "Salâm, followed by elaborate rounds of polite taarof.",
+      "dress": "Termeh: hand-woven silk brocade with paisley motifs.",
+      "food": "Saffron rice with a golden, crispy tahdig crust.",
+      "music": "Nowruz new year, with a table of seven symbolic items.",
+      "symbols": "The paisley-like boteh and the winged Faravahar."
+    }
+  },
+  {
+    "groupId": "14256",
+    "blurb": "Mountain people who live by an unwritten code of hospitality and honour.",
+    "clues": {
+      "greeting": "Staray mashay: may you not be tired.",
+      "dress": "A long shirt over baggy trousers, topped with a rolled wool cap or turban.",
+      "food": "Chapli kebab, and rice pulao with carrots and raisins.",
+      "music": "The attan, a whirling circle dance to the dhol drum.",
+      "symbols": "Melmastia: a guest is sheltered whatever the cost."
+    }
+  },
+  {
+    "groupId": "11684",
+    "blurb": "Desert and coast dwellers of a borderland shared by three countries, famous for embroidery.",
+    "clues": {
+      "greeting": "Haal: travellers stop to exchange the news of the road.",
+      "dress": "Long dresses with a large embroidered front pocket.",
+      "food": "Sajji: whole lamb roasted on skewers around a fire.",
+      "music": "The suroz, a bowed fiddle that accompanies sung epics.",
+      "symbols": "Mirror-work embroidery and the camel caravan."
+    }
+  },
+  {
+    "groupId": "16745",
+    "blurb": "People of a Himalayan kingdom that measures Gross National Happiness.",
+    "clues": {
+      "greeting": "Kuzuzangpo la. The 'la' adds respect.",
+      "dress": "The knee-length gho for men and ankle-length kira for women, worn to work.",
+      "food": "Ema datshi: chillies cooked in cheese.",
+      "music": "Tshechu festivals with masked dances in fortress courtyards.",
+      "symbols": "The thunder dragon, and prayer flags on every mountain pass."
+    }
+  },
+  {
+    "groupId": "18212",
+    "blurb": "Hill farmers of the central Himalaya, close neighbours of the capital valley.",
+    "clues": {
+      "greeting": "Fyafulla, with joined hands.",
+      "dress": "Wrapped skirts, velvet blouses, and large gold ear and nose ornaments.",
+      "food": "Dhido millet mash and gundruk fermented greens.",
+      "music": "Selo songs to the damphu, a round frame drum.",
+      "symbols": "Sonam Lhosar new year and walls of carved prayer stones."
+    }
+  },
+  {
+    "groupId": "12599",
+    "blurb": "Steppe nomads turned city dwellers, who still hunt with golden eagles in the mountains.",
+    "clues": {
+      "greeting": "Sälemetsiz be, with a two-handed handshake.",
+      "dress": "The saukele, a tall cone-shaped bridal headdress.",
+      "food": "Beshbarmak: 'five fingers' of noodles and horse meat.",
+      "music": "The two-stringed dombra and the Nauryz spring festival.",
+      "symbols": "The shanyrak, a yurt's crown ring, on the national emblem."
+    }
+  },
+  {
+    "groupId": "14039",
+    "blurb": "Heirs to Silk Road oasis cities of blue-tiled domes.",
+    "clues": {
+      "greeting": "Assalomu alaykum, with a hand on the heart.",
+      "dress": "Bright ikat silk in zigzag patterns, and a square embroidered cap.",
+      "food": "Plov, cooked for hundreds of guests in a giant cauldron.",
+      "music": "Shashmaqam classical suites and Navruz celebrations.",
+      "symbols": "Suzani embroidery and round stamped bread."
+    }
+  },
+  {
+    "groupId": "14276",
+    "blurb": "Levantine olive farmers and city dwellers with a celebrated embroidery tradition.",
+    "clues": {
+      "greeting": "Marhaba! Answered with 'marhabtein': two hellos back.",
+      "dress": "Tatreez cross-stitch dresses, with patterns that once told a woman's home village.",
+      "food": "Musakhan: flatbread, sumac onions and roast chicken.",
+      "music": "Dabke line dancing at weddings.",
+      "symbols": "The olive tree, and the autumn harvest that brings whole families out."
+    }
+  },
+  {
+    "groupId": "10464",
+    "blurb": "One of the oldest Christian peoples, still speaking a form of Aramaic.",
+    "clues": {
+      "greeting": "Shlama lokh: peace be with you.",
+      "dress": "Festive costumes with bright sashes and feathered caps.",
+      "food": "Dolma, kubba dumplings, and flatbread from a clay oven.",
+      "music": "Kha b-Nisan, the spring new year on 1 April, and the khigga line dance.",
+      "symbols": "A flag with a four-pointed star and wavy rivers."
+    }
+  },
+  {
+    "groupId": "11722",
+    "blurb": "Nile valley people whose dialect is the Arab world's language of film and pop.",
+    "clues": {
+      "greeting": "Ahlan wa sahlan: you are among family, on easy ground.",
+      "dress": "The galabeya, a loose ankle-length robe.",
+      "food": "Koshari: rice, lentils, pasta and spicy tomato sauce.",
+      "music": "Sham el-Nessim, a spring picnic older than the calendar it follows.",
+      "symbols": "The ankh and the pyramids."
+    }
+  },
+  {
+    "groupId": "12399",
+    "blurb": "Mountain villagers of the north coast, keepers of a language far older than Arabic in the region.",
+    "clues": {
+      "greeting": "Azul! The Amazigh hello.",
+      "dress": "Bright yellow, red and orange dresses with zigzag trim.",
+      "food": "Couscous steamed over a rich vegetable stew.",
+      "music": "Yennayer, the new year celebrated in January.",
+      "symbols": "The ⵣ (yaz) letter of the Tifinagh alphabet."
+    }
+  },
+  {
+    "groupId": "14639",
+    "blurb": "Desert people of the western Sahara, known for poetry and tea.",
+    "clues": {
+      "greeting": "A long exchange of questions about family, herds and rain.",
+      "dress": "The melhfa, a long colourful wrap for women, and a wide blue robe for men.",
+      "food": "Three glasses of tea: bitter as life, sweet as love, gentle as death.",
+      "music": "Haul music on the tidinit lute and tbal drum.",
+      "symbols": "Camels and the woven desert tent, the khaima."
+    }
+  },
+  {
+    "groupId": "18895",
+    "blurb": "People of the Nile's cataracts, descended from kingdoms that once ruled Egypt.",
+    "clues": {
+      "greeting": "Visitors are welcomed in Nobiin, one of Africa's oldest written languages.",
+      "dress": "A sheer black overgarment worn over brightly coloured dresses.",
+      "food": "Dates in every form, and thin flatbread baked on a griddle.",
+      "music": "Songs to the tar frame drum and the oud.",
+      "symbols": "Brightly painted houses with domed roofs on the riverbank."
+    }
+  },
+  {
+    "groupId": "13802",
+    "blurb": "Heirs of a savanna kingdom whose emperor still holds court every Friday.",
+    "clues": {
+      "greeting": "Ne y yibeoogo: good morning.",
+      "dress": "Faso Dan Fani: hand-woven striped cotton.",
+      "food": "Tô, a stiff millet porridge, with okra sauce.",
+      "music": "Masked dances and the bendre gourd drum.",
+      "symbols": "The Mogho Naba's Friday 'false departure' ceremony."
+    }
+  },
+  {
+    "groupId": "10218",
+    "blurb": "Gold-rich forest people whose matrilineal clans and kingdoms shaped the coast.",
+    "clues": {
+      "greeting": "Akwaaba! Welcome!",
+      "dress": "Kente: strip-woven cloth, each pattern with its own name.",
+      "food": "Fufu with light, peppery soup.",
+      "music": "Talking drums that can speak proverbs.",
+      "symbols": "Adinkra symbols such as Gye Nyame and Sankofa."
+    }
+  },
+  {
+    "groupId": "11222",
+    "blurb": "Heirs of a West African kingdom famed for its royal palaces and women soldiers.",
+    "clues": {
+      "greeting": "A fɔn ganji a? Did you wake well?",
+      "dress": "Appliqué cloths stitched with royal emblems.",
+      "food": "Amiwo: cornmeal cooked red in tomato sauce.",
+      "music": "Vodun Day, a national festival every January 10.",
+      "symbols": "Royal emblems: the shark, the lion and the buffalo."
+    }
+  },
+  {
+    "groupId": "10949",
+    "blurb": "Cattle herders found across the whole Sahel, linked by one language and a code of dignity.",
+    "clues": {
+      "greeting": "Jam waali? Did you pass the night in peace?",
+      "dress": "Conical straw hats topped with leather, and indigo robes.",
+      "food": "Fura da nono: millet balls in fresh soured milk.",
+      "music": "The Sharo festival, where young men prove their courage.",
+      "symbols": "Pulaaku: patience, self-control and good manners."
+    }
+  },
+  {
+    "groupId": "19220",
+    "blurb": "Niger River townspeople around a famous desert-edge city of scholars.",
+    "clues": {
+      "greeting": "Fofo! Hello.",
+      "dress": "Long boubou robes, and turbans against the dust.",
+      "food": "Rice and river fish with peanut sauce.",
+      "music": "The yearly mud-replastering of the great mosques, a town-wide festival.",
+      "symbols": "Ancient manuscripts kept in family libraries."
+    }
+  },
+  {
+    "groupId": "11187",
+    "blurb": "Forest people of the Atlantic coast, whose carved guardian figures influenced European modern art.",
+    "clues": {
+      "greeting": "Mbolo! Hello.",
+      "dress": "Raffia, feathers and body paint for ceremonies.",
+      "food": "Chicken in palm-nut sauce with cassava sticks.",
+      "music": "The mvet, a harp-zither used to sing long epics.",
+      "symbols": "Carved reliquary guardian figures."
+    }
+  },
+  {
+    "groupId": "13134",
+    "blurb": "Savanna people of the Kasai, related to an old empire famed for its royal memory boards.",
+    "clues": {
+      "greeting": "Moyo! Life to you.",
+      "dress": "Wax-print wrappers in bold colours.",
+      "food": "Bidia, a cassava and maize dough, with leafy greens.",
+      "music": "Congolese rumba guitar drifting from every market.",
+      "symbols": "Beaded memory boards that record history."
+    }
+  },
+  {
+    "groupId": "12681",
+    "blurb": "Highland farmers on the slopes of the region's tallest mountain.",
+    "clues": {
+      "greeting": "Wĩmwega? Are you well?",
+      "dress": "Beadwork and leather capes, today saved for ceremonies.",
+      "food": "Githeri (maize and beans) and mukimo mash.",
+      "music": "Mugithi: one-man guitar nights everyone sings along to.",
+      "symbols": "A sacred mountain, and the mugumo fig tree."
+    }
+  },
+  {
+    "groupId": "15481",
+    "blurb": "Highland farmers of the Horn of Africa, near some of the world's oldest rock-hewn churches.",
+    "clues": {
+      "greeting": "Selam! Often with a shoulder bump between friends.",
+      "dress": "White cotton with embroidered borders, and hair in fine braided rows.",
+      "food": "Spicy tsebhi stew on injera.",
+      "music": "Ashenda: a summer festival where girls sing and dance in groups.",
+      "symbols": "Rock-hewn churches and the ancient Ge'ez script."
+    }
+  },
+  {
+    "groupId": "14672",
+    "blurb": "Pastoralists of the northern drylands, close cousins of a more famous Maa-speaking neighbour.",
+    "clues": {
+      "greeting": "Supa! Answered with 'Ipa'.",
+      "dress": "Red cloth and layer upon layer of beaded collars.",
+      "food": "Milk and meat from the herds, and very milky tea.",
+      "music": "Jumping dances by young warriors.",
+      "symbols": "Cattle, the measure of wealth."
+    }
+  },
+  {
+    "groupId": "11565",
+    "blurb": "Cattle herders of the White Nile floodplains, where songs are composed for a favourite ox.",
+    "clues": {
+      "greeting": "A long handshake, with news of family and cattle.",
+      "dress": "Beaded corsets whose colours show the wearer's age.",
+      "food": "Milk and sorghum porridge, with fish in the wet season.",
+      "music": "Ox songs, composed in praise of a man's own ox.",
+      "symbols": "Cattle with horns trained into shapes."
+    }
+  },
+  {
+    "groupId": "14917",
+    "blurb": "Builders of great stone cities on the high plateau between two rivers.",
+    "clues": {
+      "greeting": "Mhoroi! Often answered with a clap of the hands.",
+      "dress": "Printed cotton wraps in bold patterns.",
+      "food": "Sadza, a stiff maize porridge, with greens.",
+      "music": "The mbira thumb piano at all-night ceremonies.",
+      "symbols": "A soapstone bird from a great stone city, now on the national flag."
+    }
+  },
+  {
+    "groupId": "14648",
+    "blurb": "Sea people of a great island's west coast, living by fishing from outrigger canoes.",
+    "clues": {
+      "greeting": "Salama! Hello.",
+      "dress": "Faces painted with white or yellow paste against the sun.",
+      "food": "Fish and octopus with rice. Always rice.",
+      "music": "Salegy dance music and the valiha bamboo zither.",
+      "symbols": "Outrigger canoes with square sails, and baobabs on the shore."
+    }
+  },
+  {
+    "groupId": "13931",
+    "blurb": "Herders of the arid south-west who speak a language full of clicks.",
+    "clues": {
+      "greeting": "Matisa? How are you?",
+      "dress": "Long patchwork dresses and wrapped headscarves.",
+      "food": "Goat stew and wild veld foods.",
+      "music": "The stap dance, with guitars and stamping feet.",
+      "symbols": "Round houses covered in reed mats."
+    }
+  },
+  {
+    "groupId": "12085",
+    "blurb": "Cattle herders of the desert country, known for strikingly elegant dress.",
+    "clues": {
+      "greeting": "Wa penduka? Did you wake well?",
+      "dress": "Long, full gowns and a horn-shaped headdress honouring cattle.",
+      "food": "Omaere sour milk and meat.",
+      "music": "Annual remembrance days with marching and uniforms.",
+      "symbols": "Cattle horns, echoed in the women's headdress."
+    }
+  },
+  {
+    "groupId": "15005",
+    "blurb": "Mountain people of a kingdom entirely surrounded by another country.",
+    "clues": {
+      "greeting": "Lumela! And 'khotso': peace.",
+      "dress": "Patterned wool blankets worn as cloaks.",
+      "food": "Papa, a maize porridge, with moroho greens.",
+      "music": "Famo: accordion songs from the mountains and mines.",
+      "symbols": "The mokorotlo, a conical straw hat shaped like a mountain."
+    }
+  },
+  {
+    "groupId": "11108",
+    "blurb": "Mediterranean people with their own language, flag and famous human towers.",
+    "clues": {
+      "greeting": "Bon dia! With two kisses on the cheek.",
+      "dress": "The red barretina cap and rope-soled espadrilles.",
+      "food": "Pa amb tomàquet: bread rubbed with tomato and olive oil.",
+      "music": "Castells human towers and the sardana circle dance.",
+      "symbols": "Sant Jordi's day, when people give roses and books."
+    }
+  },
+  {
+    "groupId": "14045",
+    "blurb": "Fjord and mountain people with a seafaring past and a love of the outdoors.",
+    "clues": {
+      "greeting": "Hei! Or 'god dag' for formal moments.",
+      "dress": "The bunad, an embroidered regional folk costume, worn on national day.",
+      "food": "Sweet brown cheese, and lutefisk at Christmas.",
+      "music": "17 May children's parades and the Hardanger fiddle.",
+      "symbols": "Stave churches and Viking ships."
+    }
+  },
+  {
+    "groupId": "11157",
+    "blurb": "A small Baltic nation whose 'singing revolution' helped win independence.",
+    "clues": {
+      "greeting": "Tere! Simply hello.",
+      "dress": "Striped skirts, each parish with its own colours.",
+      "food": "Dark rye bread and kama flour stirred into kefir.",
+      "music": "Song festivals where tens of thousands sing together.",
+      "symbols": "The cornflower and the barn swallow."
+    }
+  },
+  {
+    "groupId": "12254",
+    "blurb": "Islanders who keep an old Celtic language alive in western coastal districts.",
+    "clues": {
+      "greeting": "Dia duit: God to you.",
+      "dress": "Cable-knit wool sweaters from the western isles.",
+      "food": "Soda bread and colcannon.",
+      "music": "Sean-nós singing and céilí dancing.",
+      "symbols": "The harp and the shamrock."
+    }
+  },
+  {
+    "groupId": "14801",
+    "blurb": "Highland and island folk who still speak a Celtic tongue.",
+    "clues": {
+      "greeting": "Halò! Or 'Ciamar a tha thu?'",
+      "dress": "Tartan kilts, each pattern tied to a clan.",
+      "food": "Haggis, neeps and tatties.",
+      "music": "Bagpipes and the Mòd festival of song.",
+      "symbols": "The thistle and the saltire."
+    }
+  },
+  {
+    "groupId": "11317",
+    "blurb": "Mountain people of the Caucasus, with stone watchtowers and strong clan ties.",
+    "clues": {
+      "greeting": "Marsha woghiyla: come in freedom.",
+      "dress": "The long cherkeska coat and a tall papakha hat.",
+      "food": "Zhizhig galnash: meat with flat dumplings and garlic sauce.",
+      "music": "Lovzar: fast pair dancing on tiptoe.",
+      "symbols": "Medieval stone towers in the highlands."
+    }
+  },
+  {
+    "groupId": "18726",
+    "blurb": "Horse and cattle breeders of the coldest inhabited region on Earth.",
+    "clues": {
+      "greeting": "Dorooboo! Hello.",
+      "dress": "Fur coats with silver ornaments and a tall fur hat.",
+      "food": "Stroganina: frozen fish shaved into curls.",
+      "music": "The khomus jaw harp and Ysyakh, the midsummer festival.",
+      "symbols": "Horses and carved wooden hitching posts."
+    }
+  },
+  {
+    "groupId": "13087",
+    "blurb": "Mediterranean islanders who speak one of the closest living languages to Latin.",
+    "clues": {
+      "greeting": "Salude! Health to you.",
+      "dress": "Embroidered bodices and fine gold filigree jewellery.",
+      "food": "Pane carasau: crisp flatbread thin as sheet music.",
+      "music": "Cantu a tenore: four-voice throat singing.",
+      "symbols": "Ancient stone towers called nuraghe."
+    }
+  },
+  {
+    "groupId": "11434",
+    "blurb": "A Turkic people of the Black Sea peninsula, who returned home after decades of exile.",
+    "clues": {
+      "greeting": "Selâm aleyküm, or a friendly 'Meraba!'",
+      "dress": "Velvet caps embroidered in gold thread.",
+      "food": "Çiberek: crisp fried turnovers filled with meat.",
+      "music": "Hıdırlez spring festival and the haytarma dance.",
+      "symbols": "A sky-blue flag with a golden tamğa emblem."
+    }
+  },
+  {
+    "groupId": "11324",
+    "blurb": "A Native nation from the south-eastern mountains, whose writing system was invented by one man.",
+    "clues": {
+      "greeting": "Osiyo! Hello.",
+      "dress": "Ribbon shirts and tear dresses.",
+      "food": "Bean bread, and wild onions scrambled with eggs.",
+      "music": "The stomp dance around a sacred fire, with shell shakers.",
+      "symbols": "A seven-pointed star and a syllabary of 85 characters."
+    }
+  },
+  {
+    "groupId": "20653",
+    "blurb": "Arctic people of the far north, hunting seal and caribou across the sea ice.",
+    "clues": {
+      "greeting": "Qanuritpin? How are you?",
+      "dress": "Caribou-skin parkas and sealskin boots.",
+      "food": "Bannock, and frozen fish or caribou eaten raw.",
+      "music": "Throat-singing games and drum dancing.",
+      "symbols": "The inukshuk, a stone figure that marks the way."
+    }
+  },
+  {
+    "groupId": "11477",
+    "blurb": "A Native nation of the northern plains and woodlands, part of the Seven Council Fires.",
+    "clues": {
+      "greeting": "Háu! Hello.",
+      "dress": "Beaded and quilled buckskin, and star quilts.",
+      "food": "Wasna: dried meat pounded with berries.",
+      "music": "Wacipi: powwows with circles of drummers.",
+      "symbols": "The star quilt, given to honour someone."
+    }
+  },
+  {
+    "groupId": "15354",
+    "blurb": "Desert and mountain people of the south-west, whose place names tell moral stories.",
+    "clues": {
+      "greeting": "Dagot'ee! Hello.",
+      "dress": "Camp dresses: long tiered skirts and loose blouses.",
+      "food": "Acorn stew and roasted agave.",
+      "music": "The Sunrise Ceremony, a girl's coming of age, with Crown Dancers.",
+      "symbols": "Fringed burden baskets with tin cones."
+    }
+  },
+  {
+    "groupId": "19525",
+    "blurb": "Descendants of enslaved West Africans on the Atlantic sea islands, with a creole language of their own.",
+    "clues": {
+      "greeting": "Oona come een! Y'all come in.",
+      "dress": "Headwraps and indigo-dyed cloth.",
+      "food": "Red rice, okra soup, and shrimp and grits.",
+      "music": "Ring shouts: spirituals sung with clapping and stamping.",
+      "symbols": "Sweetgrass baskets coiled by hand."
+    }
+  },
+  {
+    "groupId": "15914",
+    "blurb": "Highland Maya whose sacred book tells how the first people were made from maize.",
+    "clues": {
+      "greeting": "Saqarik! Good morning.",
+      "dress": "Huipil blouses woven on a backstrap loom, with patterns that vary by town.",
+      "food": "Pepián stew and tamales wrapped in leaves.",
+      "music": "Marimba music and masked dances at town fiestas.",
+      "symbols": "The quetzal bird and the Popol Vuh."
+    }
+  },
+  {
+    "groupId": "12141",
+    "blurb": "Sierra Madre people known for desert pilgrimages and dazzling bead art.",
+    "clues": {
+      "greeting": "Kepauxa? How are you?",
+      "dress": "Embroidered white cotton with deer and flower motifs.",
+      "food": "Corn tortillas and atole; maize is sacred.",
+      "music": "Ceremonial songs with a small violin and guitar.",
+      "symbols": "Yarn paintings and beadwork showing the blue deer."
+    }
+  },
+  {
+    "groupId": "11275",
+    "blurb": "Canyon dwellers famous for running extraordinary distances in sandals.",
+    "clues": {
+      "greeting": "Kuira-ba! Hello.",
+      "dress": "Bright pleated skirts, and white loincloths with headbands.",
+      "food": "Pinole: toasted ground corn mixed with water.",
+      "music": "Ball races that last all day and night, and Holy Week drumming.",
+      "symbols": "Sandals cut from old tyres."
+    }
+  },
+  {
+    "groupId": "14312",
+    "blurb": "The bilingual majority of an inland South American country where an indigenous language is spoken by almost everyone.",
+    "clues": {
+      "greeting": "Mba'éichapa? How are you?",
+      "dress": "Ao po'i: fine embroidered cotton.",
+      "food": "Chipa cheese bread, and sopa paraguaya, a 'soup' you eat with a fork.",
+      "music": "The harp and the lively polka paraguaya.",
+      "symbols": "Ñandutí lace, woven like a spider's web."
+    }
+  },
+  {
+    "groupId": "15043",
+    "blurb": "Andean farmers of a fertile highland valley, speaking a variety of a language older than the Inca.",
+    "clues": {
+      "greeting": "Allillanchu? Are you well?",
+      "dress": "Embroidered skirts and wide-brimmed felt hats.",
+      "food": "Pachamanca: meat and potatoes cooked under hot stones.",
+      "music": "The huaylarsh, a stamping harvest dance.",
+      "symbols": "The chakana, a stepped cross."
+    }
+  },
+  {
+    "groupId": "15033",
+    "blurb": "Altiplano people around a great high-altitude lake.",
+    "clues": {
+      "greeting": "Kamisaki! How are you?",
+      "dress": "Bowler hats and layered pollera skirts.",
+      "food": "Chuño freeze-dried potatoes and quinoa.",
+      "music": "Panpipes and the dance of the devils at Candelaria.",
+      "symbols": "The wiphala, a flag of rainbow squares."
+    }
+  },
+  {
+    "groupId": "14920",
+    "blurb": "Amazonian forest people of the eastern Andean slopes, gardeners and hunters.",
+    "clues": {
+      "greeting": "Winiajai! I have come.",
+      "dress": "Feathered crowns and body paint for ceremonies.",
+      "food": "Cassava beer (nijiamanch) and roasted palm grubs.",
+      "music": "Anent: sung prayers to spirits and garden plants.",
+      "symbols": "Sacred waterfalls, places of visions."
+    }
+  },
+  {
+    "groupId": "11402",
+    "blurb": "Mountain people of a snowy coastal range, who call themselves the Elder Brothers.",
+    "clues": {
+      "greeting": "Men greet each other by exchanging coca leaves.",
+      "dress": "Simple white cotton tunics woven by men.",
+      "food": "Plantain, cassava and arracacha from mountain gardens.",
+      "music": "Ceremonies led by spiritual leaders trained from childhood.",
+      "symbols": "The poporo, a lime gourd carried by men."
+    }
+  },
+  {
+    "groupId": "19150",
+    "blurb": "Amazonian people who defend a vast rainforest territory.",
+    "clues": {
+      "greeting": "Visitors are received at the men's house in the middle of the village.",
+      "dress": "Black genipap body paint and blue-and-yellow feather headdresses.",
+      "food": "Sweet potato, manioc and river fish.",
+      "music": "Naming ceremonies with days of dancing.",
+      "symbols": "Round villages laid out around a central plaza."
+    }
+  },
+  {
+    "groupId": "15554",
+    "blurb": "The only Pacific island kingdom that was never colonised.",
+    "clues": {
+      "greeting": "Mālō e lelei! Hello.",
+      "dress": "Ta'ovala: woven mats wrapped around the waist.",
+      "food": "'Ota 'ika raw fish salad and an 'umu earth oven.",
+      "music": "The lakalaka, a standing dance listed by UNESCO.",
+      "symbols": "Ngatu: painted bark cloth."
+    }
+  },
+  {
+    "groupId": "11954",
+    "blurb": "Western Pacific islanders whose ancestors raised mushroom-shaped stone pillars.",
+    "clues": {
+      "greeting": "Håfa adai! Hello.",
+      "dress": "The mestisa blouse with butterfly sleeves.",
+      "food": "Red rice and kelaguen: chicken in lemon and coconut.",
+      "music": "Village fiestas for patron saints, with call-and-response chants.",
+      "symbols": "Latte stones, the pillars of ancient houses."
+    }
+  },
+  {
+    "groupId": "13652",
+    "blurb": "Highland gardeners of a green interior valley, famous for a great gift-exchange ceremony.",
+    "clues": {
+      "greeting": "Visitors are welcomed with sweet potato roasted in the ashes.",
+      "dress": "Bird-of-paradise plumes, shell ornaments and painted faces at the show.",
+      "food": "Mumu: pork and sweet potato cooked under hot stones.",
+      "music": "The kundu hourglass drum at a big singsing.",
+      "symbols": "Moka: the competitive giving of pigs and shells."
+    }
+  },
+  {
+    "groupId": "12713",
+    "blurb": "Atoll dwellers spread across a vast stretch of ocean on both sides of the equator.",
+    "clues": {
+      "greeting": "Mauri! Hello, and a blessing.",
+      "dress": "Grass skirts and pandanus-leaf crowns for dancing.",
+      "food": "Coconut, breadfruit and giant swamp taro.",
+      "music": "Dances with outstretched arms like soaring frigatebirds.",
+      "symbols": "A frigatebird over the rising sun, on the flag."
     }
   }
 ]

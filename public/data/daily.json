@@ -1,706 +1,1910 @@
 [
   {
     "groupId": "12051",
-    "blurb": "The largest people group on Earth, spread from a vast northern plain to every continent.",
+    "blurb": "The largest people group on Earth: hundreds of millions of people across northern, central and south-western China, with communities on every continent. Most now live in cities, though many families trace their roots to farming villages on the great northern plain. They are known for a writing system in continuous use for over 3,000 years, and for a spring new year that sets off the biggest yearly human migration on the planet.",
     "clues": {
       "greeting": "Nǐ hǎo: two syllables, two tones.",
       "dress": "The high-collared qipao, and a revival of flowing hanfu robes.",
       "food": "Hand-pulled noodles, and dumplings folded for the new year.",
       "music": "The Lantern Festival closes the spring new-year season.",
       "symbols": "Red for luck, dragons for power, and the character 福 hung upside down."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Mandarin, a tonal Sinitic (Sino-Tibetan) language with more native speakers than any other"
+      },
+      {
+        "label": "Writing",
+        "value": "Chinese characters; the oldest oracle-bone inscriptions date to about 1200 BCE"
+      },
+      {
+        "label": "Festival",
+        "value": "Spring Festival (Lunar New Year), with the chunyun travel rush around it"
+      },
+      {
+        "label": "Art form",
+        "value": "Calligraphy and ink-wash painting"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Han_Chinese"
   },
   {
     "groupId": "18605",
-    "blurb": "Herders of the high steppe, in a country where horses outnumber people.",
+    "blurb": "Herders of the high steppe, in a country where horses outnumber people. Many families still move between seasonal pastures with felt tents, while nearly half the nation now lives in the capital, Ulaanbaatar. They are famous for the summer Naadam games of wrestling, horse racing and archery.",
     "clues": {
       "greeting": "Sain baina uu? Often followed by asking after your animals.",
       "dress": "The deel, a long wrap robe tied with a bright silk sash.",
       "food": "Buuz steamed dumplings and salty milk tea.",
       "music": "Throat singing, the horsehead fiddle, and the Naadam games.",
       "symbols": "The round felt ger and the Soyombo emblem."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Khalkha Mongolian, a Mongolic language written in Cyrillic, with the vertical script being revived"
+      },
+      {
+        "label": "Livelihood",
+        "value": "Herding the 'five snouts': horses, cattle, camels, sheep and goats"
+      },
+      {
+        "label": "Festival",
+        "value": "Naadam, on UNESCO's Intangible Cultural Heritage list"
+      },
+      {
+        "label": "History",
+        "value": "Chinggis Khaan founded the Mongol Empire in 1206"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Khalkha_Mongols"
   },
   {
     "groupId": "11136",
-    "blurb": "Islanders of a former seafaring kingdom, famous for long and healthy lives.",
+    "blurb": "Islanders of the chain between Kyushu and Taiwan, once an independent seafaring kingdom that traded across East Asia. Most live on Okinawa, part of Japan since 1879. They are famous for long, healthy lives, and karate grew up here.",
     "clues": {
       "greeting": "Haisai! (or haitai, if you are a woman).",
       "dress": "Bingata: stencil-dyed cloth in vivid yellows and blues.",
       "food": "Champuru stir-fry with bitter melon, and purple sweet potato.",
       "music": "The three-stringed sanshin and the Eisa drum dance.",
       "symbols": "Shisa lion-dogs guarding the rooftops."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Okinawan, a Ryukyuan language of the Japonic family, now endangered"
+      },
+      {
+        "label": "History",
+        "value": "The Ryukyu Kingdom (1429–1879) ruled from Shuri Castle"
+      },
+      {
+        "label": "Martial art",
+        "value": "Karate developed in Okinawa"
+      },
+      {
+        "label": "Music",
+        "value": "The sanshin, a three-stringed lute covered in snakeskin"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Ryukyuan_people"
   },
   {
     "groupId": "18443",
-    "blurb": "Mountain villagers known for wooden drum towers and many-voiced choirs.",
+    "blurb": "Rice farmers of the hills where Guizhou, Hunan and Guangxi meet, living in timber villages beside terraced paddies. Their carpenters build drum towers and covered bridges without nails. They are famous for choirs that sing in many parts with no conductor and no instruments.",
     "clues": {
       "greeting": "Guests are welcomed at the village gate with rice wine and a song.",
       "dress": "Indigo cloth beaten to a bronze sheen, with silver neck rings for festivals.",
       "food": "Sour fish preserved in rice, and savoury oil tea.",
       "music": "Grand Song: unaccompanied polyphonic choirs, listed by UNESCO.",
       "symbols": "Drum towers and roofed 'wind and rain' bridges."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Kam, a Kam-Sui language of the Tai-Kadai family"
+      },
+      {
+        "label": "Art form",
+        "value": "The Grand Song, on UNESCO's Intangible Cultural Heritage list since 2009"
+      },
+      {
+        "label": "Livelihood",
+        "value": "Rice farming, often with fish raised in the flooded paddies"
+      },
+      {
+        "label": "Architecture",
+        "value": "Drum towers and 'wind and rain' bridges held together by wooden joints"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Dong_people"
   },
   {
     "groupId": "10606",
-    "blurb": "A Hindu island culture in a mostly Muslim archipelago, where small offerings line every street.",
+    "blurb": "The Hindu majority of a small island in a mostly Muslim country. Village life turns around temple congregations and subak, cooperatives that share water between rice terraces. They are known for daily offerings, gamelan music and dance dramas that draw visitors from around the world.",
     "clues": {
       "greeting": "Om Swastiastu, with palms pressed together.",
       "dress": "A sarong, a temple sash, and the udeng headcloth for men.",
       "food": "Babi guling, spit-roast pork, and lawar spiced salad.",
       "music": "Gamelan orchestras and the hypnotic Kecak chant.",
       "symbols": "Canang sari offerings and split temple gates."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Balinese, an Austronesian language with its own Brahmi-derived script"
+      },
+      {
+        "label": "Religion",
+        "value": "Balinese Hinduism, blended with local ancestor and nature traditions"
+      },
+      {
+        "label": "Farming",
+        "value": "The subak irrigation system, a UNESCO World Heritage site since 2012"
+      },
+      {
+        "label": "Festival",
+        "value": "Nyepi, the Day of Silence, when the whole island shuts down"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Balinese_people"
   },
   {
     "groupId": "13724",
-    "blurb": "The world's largest matrilineal society: land and houses pass down through women.",
+    "blurb": "Highlanders of West Sumatra and the world's largest matrilineal society: land and family houses pass down through women. Young men traditionally leave home to seek experience and fortune, so their communities are found across the region. Their cooking travelled with them, and 'Padang restaurants' are now everywhere in Indonesia.",
     "clues": {
       "greeting": "Baa kaba? What's the news?",
       "dress": "A women's headdress folded into the shape of buffalo horns.",
       "food": "Rendang, beef slow-cooked in coconut until it caramelises.",
       "music": "Talempong gong-chimes and the saluang bamboo flute.",
       "symbols": "Houses with roofs that sweep up like horns."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Minangkabau, a Malayic language of the Austronesian family"
+      },
+      {
+        "label": "Tradition",
+        "value": "Merantau, a young man's journey away from home to make his way"
+      },
+      {
+        "label": "Food",
+        "value": "Rendang, often voted one of the world's best dishes"
+      },
+      {
+        "label": "Famous",
+        "value": "Mohammad Hatta, Indonesia's first vice-president"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Minangkabau_people"
   },
   {
     "groupId": "15799",
-    "blurb": "Islanders of the central archipelago whose language rivals the national one in speakers.",
+    "blurb": "Islanders of the central Philippines, centred on Cebu and Bohol and much of Mindanao. Cebu City was the first Spanish settlement in the archipelago, and its trade and ports still make it the country's second hub. Every January the Sinulog festival fills its streets with drums and dancers honouring the Santo Niño.",
     "clues": {
       "greeting": "Maayong buntag! Good morning.",
       "dress": "The sheer, embroidered barong shirt for formal days.",
       "food": "Lechon: roast pig with crackling skin.",
       "music": "Sinulog: a street festival of dancers swaying to drums.",
       "symbols": "The Santo Niño, and a cross planted by Magellan's crew."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Cebuano (Bisaya), a Greater Central Philippine language of the Austronesian family"
+      },
+      {
+        "label": "History",
+        "value": "Magellan's expedition reached Cebu in 1521; he was killed at the Battle of Mactan"
+      },
+      {
+        "label": "Famous",
+        "value": "Lapulapu, the chief of Mactan, now a national hero"
+      },
+      {
+        "label": "Festival",
+        "value": "Sinulog, held on the third Sunday of January"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Cebuano_people"
   },
   {
     "groupId": "12167",
-    "blurb": "Longhouse communities of the river country, where a whole village can live under one roof.",
+    "blurb": "Longhouse communities of Sarawak, on the island of Borneo, where a whole village can live under one roof in a row of family rooms opening onto a shared gallery. They farm hill rice and fish the rivers, and many now work in towns. They are known for sacred ikat weavings and for Gawai, the harvest festival.",
     "clues": {
       "greeting": "Nama berita? What's the news?",
       "dress": "Pua kumbu: sacred ikat cloths woven by women.",
       "food": "Pansuh: meat or fish cooked inside a bamboo tube.",
       "music": "The Gawai harvest festival and the ngajat dance to gongs.",
       "symbols": "The hornbill, messenger to the spirit world."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Iban, a Malayic language of the Austronesian family"
+      },
+      {
+        "label": "Home",
+        "value": "The rumah panjai (longhouse), which can hold dozens of families"
+      },
+      {
+        "label": "Textile",
+        "value": "Pua kumbu, ikat cloths woven by women for ceremonies"
+      },
+      {
+        "label": "Festival",
+        "value": "Gawai Dayak, celebrated on 1 June"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Iban_people"
   },
   {
     "groupId": "14371",
-    "blurb": "Heirs of an ancient empire and a poetry tradition that is still quoted every day.",
+    "blurb": "Iran's largest people, heirs of empires going back 2,500 years and of a language close enough to its medieval form that classic poets are still quoted every day. Most live in cities such as Tehran, Isfahan and Shiraz. They are known for carpets, walled gardens, poetry, and a new year that starts at the spring equinox.",
     "clues": {
       "greeting": "Salâm, followed by elaborate rounds of polite taarof.",
       "dress": "Termeh: hand-woven silk brocade with paisley motifs.",
       "food": "Saffron rice with a golden, crispy tahdig crust.",
       "music": "Nowruz new year, with a table of seven symbolic items.",
       "symbols": "The paisley-like boteh and the winged Faravahar."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Persian (Farsi), an Iranian language of the Indo-European family"
+      },
+      {
+        "label": "Festival",
+        "value": "Nowruz, the new year, on UNESCO's Intangible Cultural Heritage list"
+      },
+      {
+        "label": "Poets",
+        "value": "Ferdowsi, author of the Shahnameh epic, as well as Hafez, Saadi and Rumi"
+      },
+      {
+        "label": "Craft",
+        "value": "Hand-knotted carpets, woven in Persia for thousands of years"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Persians"
   },
   {
     "groupId": "14256",
-    "blurb": "Mountain people who live by an unwritten code of hospitality and honour.",
+    "blurb": "One of the world's largest tribal societies, living on both sides of the Afghanistan–Pakistan border, with big communities in Karachi and the Gulf. An unwritten code puts hospitality, honour and refuge for guests at the centre of life. Councils of elders, called jirgas, still settle disputes.",
     "clues": {
       "greeting": "Staray mashay: may you not be tired.",
       "dress": "A long shirt over baggy trousers, topped with a rolled wool cap or turban.",
       "food": "Chapli kebab, and rice pulao with carrots and raisins.",
       "music": "The attan, a whirling circle dance to the dhol drum.",
       "symbols": "Melmastia: a guest is sheltered whatever the cost."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Pashto, an Iranian language of the Indo-European family"
+      },
+      {
+        "label": "Code",
+        "value": "Pashtunwali, which covers hospitality, honour and protection of guests"
+      },
+      {
+        "label": "Dance",
+        "value": "The attan, a whirling circle dance and Afghanistan's national dance"
+      },
+      {
+        "label": "Famous",
+        "value": "Malala Yousafzai, winner of the 2014 Nobel Peace Prize"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Pashtuns"
   },
   {
     "groupId": "11684",
-    "blurb": "Desert and coast dwellers of a borderland shared by three countries, famous for embroidery.",
+    "blurb": "Desert, mountain and coastal people of a borderland shared by Pakistan, Iran and Afghanistan. Many herd sheep and camels in the interior or fish along the Makran coast. They are known for fine needlework and for long epics sung to the bowed suroz.",
     "clues": {
       "greeting": "Haal: travellers stop to exchange the news of the road.",
       "dress": "Long dresses with a large embroidered front pocket.",
       "food": "Sajji: whole lamb roasted on skewers around a fire.",
       "music": "The suroz, a bowed fiddle that accompanies sung epics.",
       "symbols": "Mirror-work embroidery and the camel caravan."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Balochi, an Iranian language of the Indo-European family"
+      },
+      {
+        "label": "Craft",
+        "value": "Dense embroidery with tiny mirrors, stitched on dresses"
+      },
+      {
+        "label": "Music",
+        "value": "Sung epics accompanied by the suroz fiddle"
+      },
+      {
+        "label": "Livelihood",
+        "value": "Herding in the interior and fishing on the Makran coast"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Baloch_people"
   },
   {
     "groupId": "16745",
-    "blurb": "People of a Himalayan kingdom that measures Gross National Happiness.",
+    "blurb": "The majority people of Bhutan, from the western valleys of the eastern Himalaya. Farmers grow red rice in terraced fields, and fortress-monasteries called dzongs house both monks and government offices. Their country famously measures progress as Gross National Happiness.",
     "clues": {
       "greeting": "Kuzuzangpo la. The 'la' adds respect.",
       "dress": "The knee-length gho for men and ankle-length kira for women, worn to work.",
       "food": "Ema datshi: chillies cooked in cheese.",
       "music": "Tshechu festivals with masked dances in fortress courtyards.",
       "symbols": "The thunder dragon, and prayer flags on every mountain pass."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Dzongkha, Bhutan's national language, a Tibetic language of the Sino-Tibetan family"
+      },
+      {
+        "label": "Religion",
+        "value": "The Drukpa Kagyu school of Vajrayana Buddhism"
+      },
+      {
+        "label": "Festival",
+        "value": "Tshechu, a festival of masked dances held in dzong courtyards"
+      },
+      {
+        "label": "Sport",
+        "value": "Archery, Bhutan's national sport"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Ngalop_people"
   },
   {
     "groupId": "18212",
-    "blurb": "Hill farmers of the central Himalaya, close neighbours of the capital valley.",
+    "blurb": "One of Nepal's largest ethnic groups, from the hills around the Kathmandu Valley. Families farm terraced slopes, and many now work in the city, in trekking or abroad. Their Tibetan Buddhist heritage shows in their monasteries and in the Lhosar new year.",
     "clues": {
       "greeting": "Fyafulla, with joined hands.",
       "dress": "Wrapped skirts, velvet blouses, and large gold ear and nose ornaments.",
       "food": "Dhido millet mash and gundruk fermented greens.",
       "music": "Selo songs to the damphu, a round frame drum.",
       "symbols": "Sonam Lhosar new year and walls of carved prayer stones."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Tamang, a Tibeto-Burman language of the Sino-Tibetan family"
+      },
+      {
+        "label": "Religion",
+        "value": "Tibetan Buddhism with lamas, alongside village shamans called bombo"
+      },
+      {
+        "label": "Festival",
+        "value": "Sonam Lhosar, the new year at the end of winter"
+      },
+      {
+        "label": "Music",
+        "value": "Selo songs to the damphu frame drum"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Tamang_people"
   },
   {
     "groupId": "12599",
-    "blurb": "Steppe nomads turned city dwellers, who still hunt with golden eagles in the mountains.",
+    "blurb": "Steppe herders who became city dwellers in the world's largest landlocked country, with large communities in China, Uzbekistan and Mongolia. In the Altai mountains, some families still hunt with golden eagles. Hospitality runs deep: an honoured guest is served the head of the sheep.",
     "clues": {
       "greeting": "Sälemetsiz be, with a two-handed handshake.",
       "dress": "The saukele, a tall cone-shaped bridal headdress.",
       "food": "Beshbarmak: 'five fingers' of noodles and horse meat.",
       "music": "The two-stringed dombra and the Nauryz spring festival.",
       "symbols": "The shanyrak, a yurt's crown ring, on the national emblem."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Kazakh, a Kipchak Turkic language moving from Cyrillic to the Latin alphabet"
+      },
+      {
+        "label": "Tradition",
+        "value": "Hunting with golden eagles, passed from father to son"
+      },
+      {
+        "label": "Music",
+        "value": "The dombra, a two-stringed long-necked lute"
+      },
+      {
+        "label": "Famous",
+        "value": "Abai Qunanbaiuly, the poet and thinker of the national literature"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Kazakhs"
   },
   {
     "groupId": "14039",
-    "blurb": "Heirs to Silk Road oasis cities of blue-tiled domes.",
+    "blurb": "Central Asia's most numerous people, heirs to the Silk Road oasis cities of Samarkand, Bukhara and Khiva. Many farm cotton and fruit in irrigated valleys, and bazaars remain the heart of town life. Hospitality centres on the communal pot of plov.",
     "clues": {
       "greeting": "Assalomu alaykum, with a hand on the heart.",
       "dress": "Bright ikat silk in zigzag patterns, and a square embroidered cap.",
       "food": "Plov, cooked for hundreds of guests in a giant cauldron.",
       "music": "Shashmaqam classical suites and Navruz celebrations.",
       "symbols": "Suzani embroidery and round stamped bread."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Uzbek, a Turkic language written in the Latin alphabet since 1993"
+      },
+      {
+        "label": "Heritage",
+        "value": "The Registan of Samarkand, framed by three tiled madrasas"
+      },
+      {
+        "label": "Food",
+        "value": "Plov, on UNESCO's Intangible Cultural Heritage list"
+      },
+      {
+        "label": "Famous",
+        "value": "Alisher Navoi, the 15th-century poet honoured as the father of their literature"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Uzbeks"
   },
   {
     "groupId": "14276",
-    "blurb": "Levantine olive farmers and city dwellers with a celebrated embroidery tradition.",
+    "blurb": "Arabic-speaking people of the land between the Jordan River and the Mediterranean, with large communities in Jordan and Israel and a worldwide diaspora. Olive farming shapes the year, and old towns such as Nablus and Hebron are known for soap and glassmaking. They are celebrated for cross-stitch embroidery and dabke dancing.",
     "clues": {
       "greeting": "Marhaba! Answered with 'marhabtein': two hellos back.",
       "dress": "Tatreez cross-stitch dresses, with patterns that once told a woman's home village.",
       "food": "Musakhan: flatbread, sumac onions and roast chicken.",
       "music": "Dabke line dancing at weddings.",
       "symbols": "The olive tree, and the autumn harvest that brings whole families out."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Levantine Arabic, a Semitic language"
+      },
+      {
+        "label": "Craft",
+        "value": "Tatreez embroidery, on UNESCO's Intangible Cultural Heritage list since 2021"
+      },
+      {
+        "label": "Food",
+        "value": "Olive oil, Nablus soap and knafeh pastry"
+      },
+      {
+        "label": "Famous",
+        "value": "Mahmoud Darwish, one of the Arab world's best-loved poets"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Palestinians"
   },
   {
     "groupId": "10464",
-    "blurb": "One of the oldest Christian peoples, still speaking a form of Aramaic.",
+    "blurb": "One of the oldest Christian peoples, from northern Mesopotamia in today's Iraq, Syria, Turkey and Iran. Many have emigrated, with large communities in Sweden, the United States and Australia. They trace their heritage to ancient Assyria and still speak a modern form of Aramaic.",
     "clues": {
       "greeting": "Shlama lokh: peace be with you.",
       "dress": "Festive costumes with bright sashes and feathered caps.",
       "food": "Dolma, kubba dumplings, and flatbread from a clay oven.",
       "music": "Kha b-Nisan, the spring new year on 1 April, and the khigga line dance.",
       "symbols": "A flag with a four-pointed star and wavy rivers."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Suret (Neo-Aramaic), a Semitic language related to the Aramaic of Jesus's time"
+      },
+      {
+        "label": "Writing",
+        "value": "The Syriac alphabet"
+      },
+      {
+        "label": "Religion",
+        "value": "The Assyrian Church of the East, the Chaldean Catholic Church and the Syriac Orthodox Church"
+      },
+      {
+        "label": "Festival",
+        "value": "Akitu (Kha b-Nisan), the new year on 1 April"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Assyrian_people"
   },
   {
     "groupId": "11722",
-    "blurb": "Nile valley people whose dialect is the Arab world's language of film and pop.",
+    "blurb": "Most of Egypt's people, crowded along the Nile and its delta, where nearly everyone lives on a narrow strip of farmland. Cairo, their capital, is the largest city in the Arab world. Their dialect travels across the region on the back of Egyptian film, television and song.",
     "clues": {
       "greeting": "Ahlan wa sahlan: you are among family, on easy ground.",
       "dress": "The galabeya, a loose ankle-length robe.",
       "food": "Koshari: rice, lentils, pasta and spicy tomato sauce.",
       "music": "Sham el-Nessim, a spring picnic older than the calendar it follows.",
       "symbols": "The ankh and the pyramids."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Egyptian Arabic, a Semitic language"
+      },
+      {
+        "label": "Livelihood",
+        "value": "Farming on Nile-irrigated land, the work of the fellahin"
+      },
+      {
+        "label": "Famous",
+        "value": "Singer Umm Kulthum and novelist Naguib Mahfouz, winner of the 1988 Nobel Prize in Literature"
+      },
+      {
+        "label": "Festival",
+        "value": "Sham el-Nessim, a spring holiday with roots in ancient Egypt"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Egyptians"
   },
   {
     "groupId": "12399",
-    "blurb": "Mountain villagers of the north coast, keepers of a language far older than Arabic in the region.",
+    "blurb": "Berber-speaking mountain people of Kabylia in north-east Algeria, with a large diaspora in France. Hillside villages are surrounded by olive groves and fig trees, and village assemblies still run local affairs. They are known for enamelled silver jewellery, pottery and protest songs.",
     "clues": {
       "greeting": "Azul! The Amazigh hello.",
       "dress": "Bright yellow, red and orange dresses with zigzag trim.",
       "food": "Couscous steamed over a rich vegetable stew.",
       "music": "Yennayer, the new year celebrated in January.",
       "symbols": "The ⵣ (yaz) letter of the Tifinagh alphabet."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Kabyle (Taqbaylit), a Berber language of the Afro-Asiatic family"
+      },
+      {
+        "label": "Craft",
+        "value": "Silver jewellery set with enamel and coral, made in Beni Yenni"
+      },
+      {
+        "label": "Famous",
+        "value": "Footballer Zinedine Zidane, whose parents came from Kabylia, and singer Lounès Matoub"
+      },
+      {
+        "label": "Festival",
+        "value": "Yennayer, the new year, an official holiday in Algeria since 2018"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Kabyle_people"
   },
   {
     "groupId": "14639",
-    "blurb": "Desert people of the western Sahara, known for poetry and tea.",
+    "blurb": "Arabic-speaking people of Western Sahara, a territory whose status is still disputed. Since 1975, many have lived in refugee camps near Tindouf in Algeria. Traditionally camel herders who followed the rains, they are known for poetry and an unhurried tea ceremony.",
     "clues": {
       "greeting": "A long exchange of questions about family, herds and rain.",
       "dress": "The melhfa, a long colourful wrap for women, and a wide blue robe for men.",
       "food": "Three glasses of tea: bitter as life, sweet as love, gentle as death.",
       "music": "Haul music on the tidinit lute and tbal drum.",
       "symbols": "Camels and the woven desert tent, the khaima."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Hassaniya Arabic, a Semitic language"
+      },
+      {
+        "label": "Livelihood",
+        "value": "Camel herding across the desert"
+      },
+      {
+        "label": "Tradition",
+        "value": "Three rounds of tea, each sweeter than the last"
+      },
+      {
+        "label": "Dress",
+        "value": "The melhfa, a long, colourful wrap worn by women"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Sahrawi_people"
   },
   {
     "groupId": "18895",
-    "blurb": "People of the Nile's cataracts, descended from kingdoms that once ruled Egypt.",
+    "blurb": "River people of the Nile between Aswan and Dongola, whose ancestors' kingdom of Kush once ruled Egypt. In the 1960s Lake Nasser flooded many of their villages, and whole communities were moved. They are known for brightly painted houses and date-palm groves along the river.",
     "clues": {
       "greeting": "Visitors are welcomed in Nobiin, one of Africa's oldest written languages.",
       "dress": "A sheer black overgarment worn over brightly coloured dresses.",
       "food": "Dates in every form, and thin flatbread baked on a griddle.",
       "music": "Songs to the tar frame drum and the oud.",
       "symbols": "Brightly painted houses with domed roofs on the riverbank."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Nobiin, a Nubian language written in the Middle Ages in Old Nubian script"
+      },
+      {
+        "label": "History",
+        "value": "Kushite kings ruled Egypt as its 25th Dynasty and built pyramids at Meroë"
+      },
+      {
+        "label": "Displacement",
+        "value": "The Aswan High Dam flooded much of old Nubia in the 1960s"
+      },
+      {
+        "label": "Livelihood",
+        "value": "Date palms and small farms on the riverbanks"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Nubians"
   },
   {
     "groupId": "13802",
-    "blurb": "Heirs of a savanna kingdom whose emperor still holds court every Friday.",
+    "blurb": "Burkina Faso's largest people, heirs of kingdoms founded around the 15th century and still headed by a ceremonial emperor in Ouagadougou. Most farm millet and sorghum, and many work in neighbouring Côte d'Ivoire. Their masks and dances mark funerals and the farming year.",
     "clues": {
       "greeting": "Ne y yibeoogo: good morning.",
       "dress": "Faso Dan Fani: hand-woven striped cotton.",
       "food": "Tô, a stiff millet porridge, with okra sauce.",
       "music": "Masked dances and the bendre gourd drum.",
       "symbols": "The Mogho Naba's Friday 'false departure' ceremony."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Mooré, a Gur language of the Atlantic-Congo family"
+      },
+      {
+        "label": "Leader",
+        "value": "The Mogho Naba, the ceremonial emperor in Ouagadougou"
+      },
+      {
+        "label": "Legend",
+        "value": "Princess Yennenga, a warrior on horseback, mother of the founding dynasty"
+      },
+      {
+        "label": "Livelihood",
+        "value": "Farming millet and sorghum on the savanna"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Mossi_people"
   },
   {
     "groupId": "10218",
-    "blurb": "Gold-rich forest people whose matrilineal clans and kingdoms shaped the coast.",
+    "blurb": "Peoples of southern Ghana and eastern Côte d'Ivoire, including the Asante and Fante, organised in matrilineal clans. The Asante empire grew rich on gold, and today cocoa is the great cash crop. They are famous for kente cloth and adinkra symbols.",
     "clues": {
       "greeting": "Akwaaba! Welcome!",
       "dress": "Kente: strip-woven cloth, each pattern with its own name.",
       "food": "Fufu with light, peppery soup.",
       "music": "Talking drums that can speak proverbs.",
       "symbols": "Adinkra symbols such as Gye Nyame and Sankofa."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Akan (Twi and Fante), a Kwa language of the Atlantic-Congo family"
+      },
+      {
+        "label": "Textile",
+        "value": "Kente, strip-woven cloth with named patterns"
+      },
+      {
+        "label": "Tradition",
+        "value": "Day names: a boy born on Saturday is Kwame, a girl on Friday is Afua"
+      },
+      {
+        "label": "Symbol",
+        "value": "The Golden Stool, which holds the soul of the Asante nation"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Akan_people"
   },
   {
     "groupId": "11222",
-    "blurb": "Heirs of a West African kingdom famed for its royal palaces and women soldiers.",
+    "blurb": "Benin's largest people, heirs of the kingdom of Dahomey, which ruled from Abomey. Its army included the Agojie, a regiment of women soldiers. Vodun, a religion that spread to the Americas as Vodou, began here and is still practised openly.",
     "clues": {
       "greeting": "A fɔn ganji a? Did you wake well?",
       "dress": "Appliqué cloths stitched with royal emblems.",
       "food": "Amiwo: cornmeal cooked red in tomato sauce.",
       "music": "Vodun Day, a national festival every January 10.",
       "symbols": "Royal emblems: the shark, the lion and the buffalo."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Fon (Fongbe), a Gbe language of the Atlantic-Congo family"
+      },
+      {
+        "label": "History",
+        "value": "The Royal Palaces of Abomey, a UNESCO World Heritage site"
+      },
+      {
+        "label": "Religion",
+        "value": "Vodun; Benin marks National Vodun Day on 10 January"
+      },
+      {
+        "label": "Art form",
+        "value": "Appliqué cloths telling the stories of the kings"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Fon_people"
   },
   {
     "groupId": "10949",
-    "blurb": "Cattle herders found across the whole Sahel, linked by one language and a code of dignity.",
+    "blurb": "Part of one of Africa's most widespread peoples, found from Senegal to Sudan. In Nigeria some still herd cattle across the savanna, while others have lived in northern cities for centuries. In 1804 the scholar Usman dan Fodio founded the Sokoto Caliphate, which shaped the region.",
     "clues": {
       "greeting": "Jam waali? Did you pass the night in peace?",
       "dress": "Conical straw hats topped with leather, and indigo robes.",
       "food": "Fura da nono: millet balls in fresh soured milk.",
       "music": "The Sharo festival, where young men prove their courage.",
       "symbols": "Pulaaku: patience, self-control and good manners."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Fulfulde, an Atlantic language of the Atlantic-Congo family"
+      },
+      {
+        "label": "Livelihood",
+        "value": "Herding humped zebu cattle"
+      },
+      {
+        "label": "History",
+        "value": "The Sokoto Caliphate, founded in 1804"
+      },
+      {
+        "label": "Code",
+        "value": "Pulaaku: patience, self-control and good manners"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Fula_people"
   },
   {
     "groupId": "19220",
-    "blurb": "Niger River townspeople around a famous desert-edge city of scholars.",
+    "blurb": "Songhay speakers of the Niger bend around Timbuktu in Mali. Their ancestors' empire, centred on Gao, controlled West African trade in the 15th and 16th centuries. Today they fish, grow rice and trade, and guard family libraries of old manuscripts.",
     "clues": {
       "greeting": "Fofo! Hello.",
       "dress": "Long boubou robes, and turbans against the dust.",
       "food": "Rice and river fish with peanut sauce.",
       "music": "The yearly mud-replastering of the great mosques, a town-wide festival.",
       "symbols": "Ancient manuscripts kept in family libraries."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Koyra Chiini, a Songhay language"
+      },
+      {
+        "label": "History",
+        "value": "The Songhai Empire, one of the largest in African history"
+      },
+      {
+        "label": "Heritage",
+        "value": "Timbuktu's mud-brick Djinguereber Mosque, a UNESCO World Heritage site"
+      },
+      {
+        "label": "Tradition",
+        "value": "Family collections of Arabic and Ajami manuscripts"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Songhai_people"
   },
   {
     "groupId": "11187",
-    "blurb": "Forest people of the Atlantic coast, whose carved guardian figures influenced European modern art.",
+    "blurb": "Forest people of Equatorial Guinea, Gabon and Cameroon, and the majority in Equatorial Guinea. They grow cassava and plantain in forest clearings, and hunting and trade remain important. Their carved guardian figures influenced European modern art.",
     "clues": {
       "greeting": "Mbolo! Hello.",
       "dress": "Raffia, feathers and body paint for ceremonies.",
       "food": "Chicken in palm-nut sauce with cassava sticks.",
       "music": "The mvet, a harp-zither used to sing long epics.",
       "symbols": "Carved reliquary guardian figures."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Fang, a Bantu language of the Atlantic-Congo family"
+      },
+      {
+        "label": "Art",
+        "value": "Byeri guardian figures that watched over ancestors' relics"
+      },
+      {
+        "label": "Music",
+        "value": "The mvet, a harp-zither used to sing long epics"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Fang_people"
   },
   {
     "groupId": "13134",
-    "blurb": "Savanna people of the Kasai, related to an old empire famed for its royal memory boards.",
+    "blurb": "People of the Kasai region in central DR Congo, around the city of Kananga. Most farm cassava and maize, and the region is known for its diamond fields. Their language is one of DR Congo's four national languages.",
     "clues": {
       "greeting": "Moyo! Life to you.",
       "dress": "Wax-print wrappers in bold colours.",
       "food": "Bidia, a cassava and maize dough, with leafy greens.",
       "music": "Congolese rumba guitar drifting from every market.",
       "symbols": "Beaded memory boards that record history."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Tshiluba, a Bantu language and one of DR Congo's national languages"
+      },
+      {
+        "label": "Livelihood",
+        "value": "Farming, trade and diamond digging in Kasai"
+      },
+      {
+        "label": "Music",
+        "value": "Congolese rumba, on UNESCO's Intangible Cultural Heritage list since 2021"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Luba_people"
   },
   {
     "groupId": "12681",
-    "blurb": "Highland farmers on the slopes of the region's tallest mountain.",
+    "blurb": "Kenya's largest ethnic group, from the fertile highlands around Mount Kenya. Farmers grow tea and coffee, and many families run businesses in Nairobi. They played a central part in Kenya's struggle for independence.",
     "clues": {
       "greeting": "Wĩmwega? Are you well?",
       "dress": "Beadwork and leather capes, today saved for ceremonies.",
       "food": "Githeri (maize and beans) and mukimo mash.",
       "music": "Mugithi: one-man guitar nights everyone sings along to.",
       "symbols": "A sacred mountain, and the mugumo fig tree."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Gikuyu, a Bantu language of the Atlantic-Congo family"
+      },
+      {
+        "label": "Livelihood",
+        "value": "Tea, coffee and smallholder farms in the central highlands"
+      },
+      {
+        "label": "Famous",
+        "value": "Jomo Kenyatta, Kenya's first president, and Wangari Maathai, winner of the 2004 Nobel Peace Prize"
+      },
+      {
+        "label": "Sacred place",
+        "value": "Kirinyaga (Mount Kenya)"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Kikuyu_people"
   },
   {
     "groupId": "15481",
-    "blurb": "Highland farmers of the Horn of Africa, near some of the world's oldest rock-hewn churches.",
+    "blurb": "Tigrinya-speaking highlanders of northern Ethiopia and neighbouring Eritrea. They plough small fields of teff, barley and wheat on the high plateau. Their homeland holds ancient Aksum and hundreds of churches carved into rock.",
     "clues": {
       "greeting": "Selam! Often with a shoulder bump between friends.",
       "dress": "White cotton with embroidered borders, and hair in fine braided rows.",
       "food": "Spicy tsebhi stew on injera.",
       "music": "Ashenda: a summer festival where girls sing and dance in groups.",
       "symbols": "Rock-hewn churches and the ancient Ge'ez script."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Tigrinya, a Semitic language written in the Ge'ez script"
+      },
+      {
+        "label": "History",
+        "value": "The Kingdom of Aksum, whose giant stone stelae are a UNESCO World Heritage site"
+      },
+      {
+        "label": "Religion",
+        "value": "Mostly Ethiopian Orthodox Tewahedo Christianity"
+      },
+      {
+        "label": "Festival",
+        "value": "Ashenda, a summer festival of girls' songs"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Tigrayans"
   },
   {
     "groupId": "14672",
-    "blurb": "Pastoralists of the northern drylands, close cousins of a more famous Maa-speaking neighbour.",
+    "blurb": "Pastoralists of northern Kenya's drylands, who speak a Maa language close to that of the Maasai. Families keep cattle, goats and camels, moving to find grazing and water. Life is organised by age-sets, and beadwork shows a person's stage in life.",
     "clues": {
       "greeting": "Supa! Answered with 'Ipa'.",
       "dress": "Red cloth and layer upon layer of beaded collars.",
       "food": "Milk and meat from the herds, and very milky tea.",
       "music": "Jumping dances by young warriors.",
       "symbols": "Cattle, the measure of wealth."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Samburu, a Maa language of the Eastern Nilotic family"
+      },
+      {
+        "label": "Livelihood",
+        "value": "Herding cattle, goats and camels"
+      },
+      {
+        "label": "Society",
+        "value": "Age-sets, with young men serving together as warriors (moran)"
+      },
+      {
+        "label": "Place",
+        "value": "Samburu National Reserve, on the Ewaso Ng'iro river"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Samburu_people"
   },
   {
     "groupId": "11565",
-    "blurb": "Cattle herders of the White Nile floodplains, where songs are composed for a favourite ox.",
+    "blurb": "South Sudan's largest people, living on the floodplains of the White Nile. In the dry season, families move with their herds to riverside cattle camps. Cattle are central to life, and young men compose songs for their favourite ox.",
     "clues": {
       "greeting": "A long handshake, with news of family and cattle.",
       "dress": "Beaded corsets whose colours show the wearer's age.",
       "food": "Milk and sorghum porridge, with fish in the wet season.",
       "music": "Ox songs, composed in praise of a man's own ox.",
       "symbols": "Cattle with horns trained into shapes."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Dinka (Thuɔŋjäŋ), a Western Nilotic language"
+      },
+      {
+        "label": "Livelihood",
+        "value": "Cattle herding between village and dry-season camps"
+      },
+      {
+        "label": "Tradition",
+        "value": "Ox songs and names taken from a favourite ox"
+      },
+      {
+        "label": "Famous",
+        "value": "Model Alek Wek and basketball player Luol Deng"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Dinka_people"
   },
   {
     "groupId": "14917",
-    "blurb": "Builders of great stone cities on the high plateau between two rivers.",
+    "blurb": "Zimbabwe's majority people, whose ancestors built the great stone city of Great Zimbabwe from the 11th to the 15th centuries. Most farm maize and keep cattle, and many live in Harare. They are known for mbira music and stone sculpture.",
     "clues": {
       "greeting": "Mhoroi! Often answered with a clap of the hands.",
       "dress": "Printed cotton wraps in bold patterns.",
       "food": "Sadza, a stiff maize porridge, with greens.",
       "music": "The mbira thumb piano at all-night ceremonies.",
       "symbols": "A soapstone bird from a great stone city, now on the national flag."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Shona, Zimbabwe's most widely spoken Bantu language"
+      },
+      {
+        "label": "Heritage",
+        "value": "Great Zimbabwe, a UNESCO World Heritage site"
+      },
+      {
+        "label": "Music",
+        "value": "The mbira, on UNESCO's Intangible Cultural Heritage list since 2020"
+      },
+      {
+        "label": "Famous",
+        "value": "Thomas Mapfumo, who built chimurenga music on mbira patterns"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Shona_people"
   },
   {
     "groupId": "14648",
-    "blurb": "Sea people of a great island's west coast, living by fishing from outrigger canoes.",
+    "blurb": "Fishing people of Madagascar's south-west coast, whose identity comes from how they live rather than from descent: anyone who lives from the sea can become one of them. They sail outrigger canoes and follow the fish along the coast with the seasons. Their language shows Madagascar's Southeast Asian roots.",
     "clues": {
       "greeting": "Salama! Hello.",
       "dress": "Faces painted with white or yellow paste against the sun.",
       "food": "Fish and octopus with rice. Always rice.",
       "music": "Salegy dance music and the valiha bamboo zither.",
       "symbols": "Outrigger canoes with square sails, and baobabs on the shore."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "A Malagasy dialect; Malagasy is an Austronesian language related to languages of Borneo"
+      },
+      {
+        "label": "Livelihood",
+        "value": "Fishing from sailing outrigger canoes"
+      },
+      {
+        "label": "Identity",
+        "value": "You become one of them by living from the sea, not by birth"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Vezo_people"
   },
   {
     "groupId": "13931",
-    "blurb": "Herders of the arid south-west who speak a language full of clicks.",
+    "blurb": "Herders of southern Namibia and South Africa's Northern Cape, and among the oldest peoples of southern Africa. Their language is full of click consonants. They are known for the stap dance, patchwork dresses and dome-shaped houses covered in reed mats.",
     "clues": {
       "greeting": "Matisa? How are you?",
       "dress": "Long patchwork dresses and wrapped headscarves.",
       "food": "Goat stew and wild veld foods.",
       "music": "The stap dance, with guitars and stamping feet.",
       "symbols": "Round houses covered in reed mats."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Khoekhoegowab, a Khoe language that uses four click sounds"
+      },
+      {
+        "label": "Livelihood",
+        "value": "Goat and sheep herding in arid land"
+      },
+      {
+        "label": "History",
+        "value": "The 1904–1908 genocide under German colonial rule"
+      },
+      {
+        "label": "Heritage",
+        "value": "The Richtersveld Cultural and Botanical Landscape, a UNESCO World Heritage site"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Nama_people"
   },
   {
     "groupId": "12085",
-    "blurb": "Cattle herders of the desert country, known for strikingly elegant dress.",
+    "blurb": "Cattle herders of central and northern Namibia. Women's long gowns and horn-shaped headdresses date from the colonial era and now honour their cattle and ancestors. Each August, a remembrance day in Okahandja honours those lost in the 1904–1908 genocide.",
     "clues": {
       "greeting": "Wa penduka? Did you wake well?",
       "dress": "Long, full gowns and a horn-shaped headdress honouring cattle.",
       "food": "Omaere sour milk and meat.",
       "music": "Annual remembrance days with marching and uniforms.",
       "symbols": "Cattle horns, echoed in the women's headdress."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Otjiherero, a Bantu language of the Atlantic-Congo family"
+      },
+      {
+        "label": "Livelihood",
+        "value": "Cattle herding"
+      },
+      {
+        "label": "History",
+        "value": "The 1904–1908 genocide under German colonial rule"
+      },
+      {
+        "label": "Tradition",
+        "value": "The August remembrance day at Okahandja, with uniformed marches"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Herero_people"
   },
   {
     "groupId": "15005",
-    "blurb": "Mountain people of a kingdom entirely surrounded by another country.",
+    "blurb": "People of the mountain kingdom completely surrounded by South Africa, and of South Africa's Free State and Gauteng. King Moshoeshoe I united them in the 1820s from the flat-topped mountain of Thaba Bosiu. They are known for patterned wool blankets worn as cloaks and conical straw hats.",
     "clues": {
       "greeting": "Lumela! And 'khotso': peace.",
       "dress": "Patterned wool blankets worn as cloaks.",
       "food": "Papa, a maize porridge, with moroho greens.",
       "music": "Famo: accordion songs from the mountains and mines.",
       "symbols": "The mokorotlo, a conical straw hat shaped like a mountain."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Sesotho, a Bantu language and an official language of two countries"
+      },
+      {
+        "label": "Founder",
+        "value": "King Moshoeshoe I, who founded the nation in the 1820s"
+      },
+      {
+        "label": "Dress",
+        "value": "Wool blankets worn as cloaks, with patterns for special occasions"
+      },
+      {
+        "label": "Symbol",
+        "value": "The mokorotlo hat, shown on the national flag"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Sotho_people"
   },
   {
     "groupId": "11108",
-    "blurb": "Mediterranean people with their own language, flag and famous human towers.",
+    "blurb": "People of north-eastern Spain's Mediterranean coast, Andorra and the far south of France. They have their own language and parliament, and Barcelona is their capital. They are famous for human towers, and for an architect whose basilica is still being finished.",
     "clues": {
       "greeting": "Bon dia! With two kisses on the cheek.",
       "dress": "The red barretina cap and rope-soled espadrilles.",
       "food": "Pa amb tomàquet: bread rubbed with tomato and olive oil.",
       "music": "Castells human towers and the sardana circle dance.",
       "symbols": "Sant Jordi's day, when people give roses and books."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Catalan, a Romance language and Andorra's only official language"
+      },
+      {
+        "label": "Tradition",
+        "value": "Castells (human towers), on UNESCO's Intangible Cultural Heritage list since 2010"
+      },
+      {
+        "label": "Famous",
+        "value": "Architect Antoni Gaudí, painter Salvador Dalí and cellist Pau Casals"
+      },
+      {
+        "label": "Festival",
+        "value": "Sant Jordi (23 April), when people give roses and books"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Catalans"
   },
   {
     "groupId": "14045",
-    "blurb": "Fjord and mountain people with a seafaring past and a love of the outdoors.",
+    "blurb": "Fjord and mountain people of northern Europe, whose Viking ancestors sailed as far as North America. Fishing and shipping built the country, and North Sea oil made it rich. Spending time outdoors in all weather, called friluftsliv, is a national habit.",
     "clues": {
       "greeting": "Hei! Or 'god dag' for formal moments.",
       "dress": "The bunad, an embroidered regional folk costume, worn on national day.",
       "food": "Sweet brown cheese, and lutefisk at Christmas.",
       "music": "17 May children's parades and the Hardanger fiddle.",
       "symbols": "Stave churches and Viking ships."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Norwegian, a North Germanic language with two written standards, Bokmål and Nynorsk"
+      },
+      {
+        "label": "National day",
+        "value": "17 May, marking the 1814 constitution, celebrated with children's parades"
+      },
+      {
+        "label": "Famous",
+        "value": "Roald Amundsen, first to reach the South Pole in 1911, and painter Edvard Munch"
+      },
+      {
+        "label": "Livelihood",
+        "value": "Fishing, especially cod, and offshore oil"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Norwegians"
   },
   {
     "groupId": "11157",
-    "blurb": "A small Baltic nation whose 'singing revolution' helped win independence.",
+    "blurb": "A small Baltic nation whose language is related to Finnish rather than to its neighbours' languages. Between 1987 and 1991, crowds of singers helped win independence from the Soviet Union. Today the country runs one of the world's most digital governments.",
     "clues": {
       "greeting": "Tere! Simply hello.",
       "dress": "Striped skirts, each parish with its own colours.",
       "food": "Dark rye bread and kama flour stirred into kefir.",
       "music": "Song festivals where tens of thousands sing together.",
       "symbols": "The cornflower and the barn swallow."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Estonian, a Finnic language of the Uralic family"
+      },
+      {
+        "label": "Festival",
+        "value": "The Song Festival, part of a UNESCO-listed Baltic tradition"
+      },
+      {
+        "label": "Famous",
+        "value": "Composer Arvo Pärt"
+      },
+      {
+        "label": "Technology",
+        "value": "E-residency and online voting; Skype was built by Estonian engineers"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Estonians"
   },
   {
     "groupId": "12254",
-    "blurb": "Islanders who keep an old Celtic language alive in western coastal districts.",
+    "blurb": "Irish speakers of the Gaeltacht along Ireland's west coast, in Donegal, Galway and Kerry, and of a growing community in the cities. Irish is the first official language of Ireland. Small farms, fishing and tourism support the Gaeltacht villages.",
     "clues": {
       "greeting": "Dia duit: God to you.",
       "dress": "Cable-knit wool sweaters from the western isles.",
       "food": "Soda bread and colcannon.",
       "music": "Sean-nós singing and céilí dancing.",
       "symbols": "The harp and the shamrock."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Irish (Gaeilge), a Goidelic Celtic language"
+      },
+      {
+        "label": "Region",
+        "value": "The Gaeltacht, the officially Irish-speaking districts"
+      },
+      {
+        "label": "Music",
+        "value": "Sean-nós, unaccompanied solo singing in Irish"
+      },
+      {
+        "label": "Literature",
+        "value": "Memoirs from the Blasket Islands, such as Peig Sayers's"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Gaeltacht"
   },
   {
     "groupId": "14801",
-    "blurb": "Highland and island folk who still speak a Celtic tongue.",
+    "blurb": "Gaelic speakers of the Hebrides and Highlands, with a sister community in Nova Scotia. Crofting families combine small farms with fishing, and weavers make Harris Tweed by hand. Song, poetry and the bagpipes are at the heart of their culture.",
     "clues": {
       "greeting": "Halò! Or 'Ciamar a tha thu?'",
       "dress": "Tartan kilts, each pattern tied to a clan.",
       "food": "Haggis, neeps and tatties.",
       "music": "Bagpipes and the Mòd festival of song.",
       "symbols": "The thistle and the saltire."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Scottish Gaelic, a Goidelic Celtic language"
+      },
+      {
+        "label": "Livelihood",
+        "value": "Crofting, and Harris Tweed handwoven in the Outer Hebrides"
+      },
+      {
+        "label": "Festival",
+        "value": "The Royal National Mòd, a festival of Gaelic song and literature"
+      },
+      {
+        "label": "Diaspora",
+        "value": "Cape Breton Island in Nova Scotia"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Scottish_Gaels"
   },
   {
     "groupId": "11317",
-    "blurb": "Mountain people of the Caucasus, with stone watchtowers and strong clan ties.",
+    "blurb": "Mountain people of the North Caucasus, organised in clans called teips. In 1944 the whole nation was deported to Central Asia and allowed back only in 1957. They are known for medieval stone watchtowers and fast, proud dances.",
     "clues": {
       "greeting": "Marsha woghiyla: come in freedom.",
       "dress": "The long cherkeska coat and a tall papakha hat.",
       "food": "Zhizhig galnash: meat with flat dumplings and garlic sauce.",
       "music": "Lovzar: fast pair dancing on tiptoe.",
       "symbols": "Medieval stone towers in the highlands."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Chechen, a Nakh language of the Nakh-Dagestanian family"
+      },
+      {
+        "label": "Society",
+        "value": "Teips, clans tied to ancestral villages in the highlands"
+      },
+      {
+        "label": "History",
+        "value": "The 1944 deportation to Kazakhstan and Kyrgyzstan"
+      },
+      {
+        "label": "Architecture",
+        "value": "Medieval stone defensive towers"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Chechens"
   },
   {
     "groupId": "18726",
-    "blurb": "Horse and cattle breeders of the coldest inhabited region on Earth.",
+    "blurb": "Turkic-speaking people of the Sakha Republic in north-eastern Siberia, home to some of the coldest towns on Earth. They raise horses and cattle that survive winters below −50 °C. Their olonkho epics can take several nights to perform.",
     "clues": {
       "greeting": "Dorooboo! Hello.",
       "dress": "Fur coats with silver ornaments and a tall fur hat.",
       "food": "Stroganina: frozen fish shaved into curls.",
       "music": "The khomus jaw harp and Ysyakh, the midsummer festival.",
       "symbols": "Horses and carved wooden hitching posts."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Sakha, a Turkic language"
+      },
+      {
+        "label": "Epic",
+        "value": "Olonkho, on UNESCO's Intangible Cultural Heritage list"
+      },
+      {
+        "label": "Festival",
+        "value": "Ysyakh, the midsummer festival with kumis (fermented mare's milk)"
+      },
+      {
+        "label": "Record",
+        "value": "Oymyakon, one of the coldest inhabited places on Earth (−67.7 °C)"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Yakuts"
   },
   {
     "groupId": "13087",
-    "blurb": "Mediterranean islanders who speak one of the closest living languages to Latin.",
+    "blurb": "People of north-central Sardinia, whose language is one of the closest living languages to Latin. Shepherding has shaped the hills for thousands of years, and pecorino sheep's cheese is still a mainstay. The island is dotted with thousands of Bronze Age stone towers.",
     "clues": {
       "greeting": "Salude! Health to you.",
       "dress": "Embroidered bodices and fine gold filigree jewellery.",
       "food": "Pane carasau: crisp flatbread thin as sheet music.",
       "music": "Cantu a tenore: four-voice throat singing.",
       "symbols": "Ancient stone towers called nuraghe."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Sardinian, a Romance language"
+      },
+      {
+        "label": "Heritage",
+        "value": "Su Nuraxi di Barumini, a nuraghe complex and UNESCO World Heritage site"
+      },
+      {
+        "label": "Music",
+        "value": "Cantu a tenore, on UNESCO's Intangible Cultural Heritage list"
+      },
+      {
+        "label": "Livelihood",
+        "value": "Sheep herding and pecorino sardo cheese"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Sardinians"
   },
   {
     "groupId": "11434",
-    "blurb": "A Turkic people of the Black Sea peninsula, who returned home after decades of exile.",
+    "blurb": "A Turkic people of the Crimean peninsula, whose khanate ruled there for over three centuries. In 1944 the whole nation was deported to Central Asia, and families began returning only from 1989. They are known for embroidery, filigree jewellery and the haytarma dance.",
     "clues": {
       "greeting": "Selâm aleyküm, or a friendly 'Meraba!'",
       "dress": "Velvet caps embroidered in gold thread.",
       "food": "Çiberek: crisp fried turnovers filled with meat.",
       "music": "Hıdırlez spring festival and the haytarma dance.",
       "symbols": "A sky-blue flag with a golden tamğa emblem."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Crimean Tatar, a Kipchak Turkic language"
+      },
+      {
+        "label": "History",
+        "value": "The Crimean Khanate (1441–1783)"
+      },
+      {
+        "label": "Remembrance",
+        "value": "Sürgünlik, the deportation of 18 May 1944"
+      },
+      {
+        "label": "Famous",
+        "value": "Singer Jamala, winner of Eurovision 2016 with a song about the deportation"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Crimean_Tatars"
   },
   {
     "groupId": "11324",
-    "blurb": "A Native nation from the south-eastern mountains, whose writing system was invented by one man.",
+    "blurb": "A Native nation from the southern Appalachians, forced west on the Trail of Tears in 1838–39. Today there are three federally recognised tribes, in Oklahoma and North Carolina. In the 1820s one man, Sequoyah, invented a writing system that most of the nation learned within a few years.",
     "clues": {
       "greeting": "Osiyo! Hello.",
       "dress": "Ribbon shirts and tear dresses.",
       "food": "Bean bread, and wild onions scrambled with eggs.",
       "music": "The stomp dance around a sacred fire, with shell shakers.",
       "symbols": "A seven-pointed star and a syllabary of 85 characters."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Cherokee, the only Southern Iroquoian language"
+      },
+      {
+        "label": "Writing",
+        "value": "Sequoyah's syllabary of 85 characters, completed in 1821"
+      },
+      {
+        "label": "History",
+        "value": "The Trail of Tears (1838–39)"
+      },
+      {
+        "label": "Famous",
+        "value": "Wilma Mankiller, the first woman to serve as Principal Chief"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Cherokee"
   },
   {
     "groupId": "20653",
-    "blurb": "Arctic people of the far north, hunting seal and caribou across the sea ice.",
+    "blurb": "Arctic people of Canada's central Arctic, around Victoria Island and the Coronation Gulf. Families hunt seal and caribou and fish for Arctic char across land, sea and ice. Since 1999 their homeland has been part of Nunavut, a territory with an Indigenous majority.",
     "clues": {
       "greeting": "Qanuritpin? How are you?",
       "dress": "Caribou-skin parkas and sealskin boots.",
       "food": "Bannock, and frozen fish or caribou eaten raw.",
       "music": "Throat-singing games and drum dancing.",
       "symbols": "The inukshuk, a stone figure that marks the way."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Inuinnaqtun, an Inuit language of the Eskimo-Aleut family"
+      },
+      {
+        "label": "Livelihood",
+        "value": "Hunting seal and caribou, and fishing for Arctic char"
+      },
+      {
+        "label": "Territory",
+        "value": "Nunavut, created in 1999"
+      },
+      {
+        "label": "Tradition",
+        "value": "Drum dancing and throat-singing games"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Inuit"
   },
   {
     "groupId": "11477",
-    "blurb": "A Native nation of the northern plains and woodlands, part of the Seven Council Fires.",
+    "blurb": "The eastern division of the Oceti Sakowin, the Seven Council Fires, from Minnesota and the northern plains. Minnesota takes its name from their language: Mni Sota, 'cloudy water'. They are known for star quilts and for quill and bead work.",
     "clues": {
       "greeting": "Háu! Hello.",
       "dress": "Beaded and quilled buckskin, and star quilts.",
       "food": "Wasna: dried meat pounded with berries.",
       "music": "Wacipi: powwows with circles of drummers.",
       "symbols": "The star quilt, given to honour someone."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Dakota, a Siouan language"
+      },
+      {
+        "label": "Name",
+        "value": "Minnesota comes from Mni Sota, 'cloudy water'"
+      },
+      {
+        "label": "Society",
+        "value": "The Oceti Sakowin (Seven Council Fires)"
+      },
+      {
+        "label": "Craft",
+        "value": "Star quilts, porcupine quillwork and beadwork"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Dakota_people"
   },
   {
     "groupId": "15354",
-    "blurb": "Desert and mountain people of the south-west, whose place names tell moral stories.",
+    "blurb": "Apache people of east-central Arizona, living mainly on the Fort Apache and San Carlos reservations. Ranching, timber and tourism support communities in mountain and desert country. Place names often hold stories that teach how to live well.",
     "clues": {
       "greeting": "Dagot'ee! Hello.",
       "dress": "Camp dresses: long tiered skirts and loose blouses.",
       "food": "Acorn stew and roasted agave.",
       "music": "The Sunrise Ceremony, a girl's coming of age, with Crown Dancers.",
       "symbols": "Fringed burden baskets with tin cones."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Western Apache, a Southern Athabaskan language related to Navajo"
+      },
+      {
+        "label": "Ceremony",
+        "value": "The Sunrise Dance, a girl's coming of age"
+      },
+      {
+        "label": "Craft",
+        "value": "Coiled baskets and burden baskets with tin cones"
+      },
+      {
+        "label": "Places",
+        "value": "Fort Apache and San Carlos reservations"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Western_Apache"
   },
   {
     "groupId": "19525",
-    "blurb": "Descendants of enslaved West Africans on the Atlantic sea islands, with a creole language of their own.",
+    "blurb": "Descendants of enslaved West Africans on the Sea Islands and coast of South Carolina and Georgia. West African rice-growing know-how made the region rich, and isolation helped them keep their own language and crafts. They are known for sweetgrass baskets, ring shouts and Lowcountry cooking.",
     "clues": {
       "greeting": "Oona come een! Y'all come in.",
       "dress": "Headwraps and indigo-dyed cloth.",
       "food": "Red rice, okra soup, and shrimp and grits.",
       "music": "Ring shouts: spirituals sung with clapping and stamping.",
       "symbols": "Sweetgrass baskets coiled by hand."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Gullah (Sea Island Creole English), an English creole shaped by West African languages"
+      },
+      {
+        "label": "Craft",
+        "value": "Coiled sweetgrass baskets"
+      },
+      {
+        "label": "Heritage",
+        "value": "The Gullah Geechee Cultural Heritage Corridor, created in 2006"
+      },
+      {
+        "label": "Food",
+        "value": "Rice dishes such as red rice and hoppin' John"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Gullah"
   },
   {
     "groupId": "15914",
-    "blurb": "Highland Maya whose sacred book tells how the first people were made from maize.",
+    "blurb": "The largest Maya people of Guatemala's western highlands. Families farm maize and beans, and towns are known for busy markets such as Chichicastenango. Their sacred book tells how the gods made the first people from maize.",
     "clues": {
       "greeting": "Saqarik! Good morning.",
       "dress": "Huipil blouses woven on a backstrap loom, with patterns that vary by town.",
       "food": "Pepián stew and tamales wrapped in leaves.",
       "music": "Marimba music and masked dances at town fiestas.",
       "symbols": "The quetzal bird and the Popol Vuh."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "K'iche', the most widely spoken Mayan language in Guatemala"
+      },
+      {
+        "label": "Book",
+        "value": "The Popol Vuh, the K'iche' story of creation"
+      },
+      {
+        "label": "Famous",
+        "value": "Rigoberta Menchú, winner of the 1992 Nobel Peace Prize"
+      },
+      {
+        "label": "Market",
+        "value": "Chichicastenango, one of Central America's best-known markets"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/K%CA%BCiche%CA%BC_people"
   },
   {
     "groupId": "12141",
-    "blurb": "Sierra Madre people known for desert pilgrimages and dazzling bead art.",
+    "blurb": "People of the Sierra Madre Occidental in Jalisco and Nayarit, Mexico, who call themselves Wixárika. Each year they make a pilgrimage of hundreds of kilometres to the sacred desert of Wirikuta. They are known for bright yarn paintings and beadwork.",
     "clues": {
       "greeting": "Kepauxa? How are you?",
       "dress": "Embroidered white cotton with deer and flower motifs.",
       "food": "Corn tortillas and atole; maize is sacred.",
       "music": "Ceremonial songs with a small violin and guitar.",
       "symbols": "Yarn paintings and beadwork showing the blue deer."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Wixárika, a Uto-Aztecan language"
+      },
+      {
+        "label": "Pilgrimage",
+        "value": "To Wirikuta, a sacred desert in San Luis Potosí"
+      },
+      {
+        "label": "Art",
+        "value": "Yarn paintings (nierika) and beadwork"
+      },
+      {
+        "label": "Sacred",
+        "value": "Maize, the deer and the peyote cactus"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Huichol"
   },
   {
     "groupId": "11275",
-    "blurb": "Canyon dwellers famous for running extraordinary distances in sandals.",
+    "blurb": "Canyon dwellers of the Copper Canyon in Chihuahua, Mexico, who call themselves Rarámuri, 'those who run'. They farm maize and beans and herd goats on steep slopes. They are famous for ball races that last a day or more.",
     "clues": {
       "greeting": "Kuira-ba! Hello.",
       "dress": "Bright pleated skirts, and white loincloths with headbands.",
       "food": "Pinole: toasted ground corn mixed with water.",
       "music": "Ball races that last all day and night, and Holy Week drumming.",
       "symbols": "Sandals cut from old tyres."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Rarámuri, a Uto-Aztecan language"
+      },
+      {
+        "label": "Tradition",
+        "value": "Rarajípari, kicking a wooden ball over long distances"
+      },
+      {
+        "label": "Famous",
+        "value": "Lorena Ramírez, an ultramarathoner who races in a skirt and sandals"
+      },
+      {
+        "label": "Place",
+        "value": "The Barrancas del Cobre (Copper Canyon)"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Rar%C3%A1muri"
   },
   {
     "groupId": "14312",
-    "blurb": "The bilingual majority of an inland South American country where an indigenous language is spoken by almost everyone.",
+    "blurb": "The bilingual majority of Paraguay, where most people speak an Indigenous language alongside Spanish. Guaraní has been an official language since 1992. Life is shared over a cold herbal infusion passed around in a single cup.",
     "clues": {
       "greeting": "Mba'éichapa? How are you?",
       "dress": "Ao po'i: fine embroidered cotton.",
       "food": "Chipa cheese bread, and sopa paraguaya, a 'soup' you eat with a fork.",
       "music": "The harp and the lively polka paraguaya.",
       "symbols": "Ñandutí lace, woven like a spider's web."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Guaraní, a Tupian language and co-official with Spanish"
+      },
+      {
+        "label": "Drink",
+        "value": "Tereré, on UNESCO's Intangible Cultural Heritage list since 2020"
+      },
+      {
+        "label": "Craft",
+        "value": "Ñandutí lace from Itauguá"
+      },
+      {
+        "label": "Famous",
+        "value": "Augusto Roa Bastos, novelist and Cervantes Prize winner"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Paraguayans"
   },
   {
     "groupId": "15043",
-    "blurb": "Andean farmers of a fertile highland valley, speaking a variety of a language older than the Inca.",
+    "blurb": "Quechua speakers of the Mantaro Valley around Huancayo, in Peru's central highlands. The valley is one of the country's great breadbaskets, growing potatoes and maize. Local artisans are known for carved gourds and for the stamping huaylarsh dance.",
     "clues": {
       "greeting": "Allillanchu? Are you well?",
       "dress": "Embroidered skirts and wide-brimmed felt hats.",
       "food": "Pachamanca: meat and potatoes cooked under hot stones.",
       "music": "The huaylarsh, a stamping harvest dance.",
       "symbols": "The chakana, a stepped cross."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Wanca Quechua, a Central Quechua (Quechua I) language"
+      },
+      {
+        "label": "Craft",
+        "value": "Mate burilado, gourds carved with scenes of village life"
+      },
+      {
+        "label": "Livelihood",
+        "value": "Potato and maize farming in the Mantaro Valley"
+      },
+      {
+        "label": "Dance",
+        "value": "The huaylarsh, danced at harvest and carnival"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Quechua_people"
   },
   {
     "groupId": "15033",
-    "blurb": "Altiplano people around a great high-altitude lake.",
+    "blurb": "Altiplano people around Lake Titicaca, in Peru's Puno region and Bolivia. They herd llamas and alpacas and grow potatoes and quinoa nearly 4,000 m above sea level. Freeze-drying potatoes in the frosty highland nights is one of their oldest techniques.",
     "clues": {
       "greeting": "Kamisaki! How are you?",
       "dress": "Bowler hats and layered pollera skirts.",
       "food": "Chuño freeze-dried potatoes and quinoa.",
       "music": "Panpipes and the dance of the devils at Candelaria.",
       "symbols": "The wiphala, a flag of rainbow squares."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Aymara, an Aymaran language"
+      },
+      {
+        "label": "Livelihood",
+        "value": "Llama and alpaca herding, potatoes and quinoa"
+      },
+      {
+        "label": "Festival",
+        "value": "Candelaria in Puno, on UNESCO's Intangible Cultural Heritage list since 2014"
+      },
+      {
+        "label": "Famous",
+        "value": "Evo Morales, Bolivia's first Indigenous president"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Aymara_people"
   },
   {
     "groupId": "14920",
-    "blurb": "Amazonian forest people of the eastern Andean slopes, gardeners and hunters.",
+    "blurb": "Forest people of Ecuador's Amazon, along the border with Peru. They garden, hunt and fish in the forest, and resisted both Inca and Spanish rule. In 1964 they founded one of the first Indigenous federations in the Americas.",
     "clues": {
       "greeting": "Winiajai! I have come.",
       "dress": "Feathered crowns and body paint for ceremonies.",
       "food": "Cassava beer (nijiamanch) and roasted palm grubs.",
       "music": "Anent: sung prayers to spirits and garden plants.",
       "symbols": "Sacred waterfalls, places of visions."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Shuar, a Chicham (Jivaroan) language"
+      },
+      {
+        "label": "Livelihood",
+        "value": "Forest gardens of cassava, with hunting and fishing"
+      },
+      {
+        "label": "Organisation",
+        "value": "The Shuar Federation, founded in 1964"
+      },
+      {
+        "label": "Sacred places",
+        "value": "Waterfalls, where people seek visions"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Shuar"
   },
   {
     "groupId": "11402",
-    "blurb": "Mountain people of a snowy coastal range, who call themselves the Elder Brothers.",
+    "blurb": "Mountain people of the Sierra Nevada de Santa Marta in Colombia, who call themselves the Elder Brothers. Their spiritual leaders, the mamos, train for years from childhood. In 1990 they sent the outside world a warning about environmental damage in a BBC film.",
     "clues": {
       "greeting": "Men greet each other by exchanging coca leaves.",
       "dress": "Simple white cotton tunics woven by men.",
       "food": "Plantain, cassava and arracacha from mountain gardens.",
       "music": "Ceremonies led by spiritual leaders trained from childhood.",
       "symbols": "The poporo, a lime gourd carried by men."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Kogi (Kággaba), a Chibchan language"
+      },
+      {
+        "label": "Leaders",
+        "value": "The mamos, spiritual leaders who keep the world in balance"
+      },
+      {
+        "label": "Film",
+        "value": "From the Heart of the World (BBC, 1990)"
+      },
+      {
+        "label": "Heritage",
+        "value": "Ciudad Perdida (Teyuna), built by the Tairona"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Kogi_people"
   },
   {
     "groupId": "19150",
-    "blurb": "Amazonian people who defend a vast rainforest territory.",
+    "blurb": "Amazonian people of the Xingu basin in Brazil, who call themselves Mẽbêngôkre. They live in round villages around a central plaza and defend one of the largest protected areas of rainforest. Their leaders became famous worldwide for campaigns against dams on the Xingu.",
     "clues": {
       "greeting": "Visitors are received at the men's house in the middle of the village.",
       "dress": "Black genipap body paint and blue-and-yellow feather headdresses.",
       "food": "Sweet potato, manioc and river fish.",
       "music": "Naming ceremonies with days of dancing.",
       "symbols": "Round villages laid out around a central plaza."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Mẽbêngôkre, a Jê language"
+      },
+      {
+        "label": "Famous",
+        "value": "Chief Raoni Metuktire, a campaigner for the rainforest"
+      },
+      {
+        "label": "Body art",
+        "value": "Black genipap and red urucum paint"
+      },
+      {
+        "label": "Village",
+        "value": "Round villages, with a men's house at the centre"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Kayapo"
   },
   {
     "groupId": "15554",
-    "blurb": "The only Pacific island kingdom that was never colonised.",
+    "blurb": "People of the only Pacific island kingdom never formally colonised, spread over about 170 islands. Big communities live in New Zealand, Australia and the United States. Church, family and rugby are central to life at home and abroad.",
     "clues": {
       "greeting": "Mālō e lelei! Hello.",
       "dress": "Ta'ovala: woven mats wrapped around the waist.",
       "food": "'Ota 'ika raw fish salad and an 'umu earth oven.",
       "music": "The lakalaka, a standing dance listed by UNESCO.",
       "symbols": "Ngatu: painted bark cloth."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Tongan, a Polynesian language of the Austronesian family"
+      },
+      {
+        "label": "Monarchy",
+        "value": "A constitutional monarchy since 1875"
+      },
+      {
+        "label": "Dance",
+        "value": "The lakalaka, on UNESCO's Intangible Cultural Heritage list"
+      },
+      {
+        "label": "Craft",
+        "value": "Ngatu, bark cloth painted in large sheets"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Tongans"
   },
   {
     "groupId": "11954",
-    "blurb": "Western Pacific islanders whose ancestors raised mushroom-shaped stone pillars.",
+    "blurb": "Indigenous people of Guam and the Northern Mariana Islands, whose ancestors arrived about 3,500 years ago. Spain colonised the islands from 1668, leaving Catholic fiestas and many Spanish words. Their ancestors raised stone pillars called latte to support their houses.",
     "clues": {
       "greeting": "Håfa adai! Hello.",
       "dress": "The mestisa blouse with butterfly sleeves.",
       "food": "Red rice and kelaguen: chicken in lemon and coconut.",
       "music": "Village fiestas for patron saints, with call-and-response chants.",
       "symbols": "Latte stones, the pillars of ancient houses."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Chamorro, a Malayo-Polynesian language with many Spanish loanwords"
+      },
+      {
+        "label": "Heritage",
+        "value": "Latte stones, the pillars of ancient houses"
+      },
+      {
+        "label": "Value",
+        "value": "Inafa'maolek, the duty to keep good relations with others"
+      },
+      {
+        "label": "Navigation",
+        "value": "The 'flying proa', a fast outrigger sailing canoe"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Chamorro_people"
   },
   {
     "groupId": "13652",
-    "blurb": "Highland gardeners of a green interior valley, famous for a great gift-exchange ceremony.",
+    "blurb": "Highland gardeners of Papua New Guinea's Western Highlands, around Mount Hagen. Their valleys had no contact with outsiders until 1933. Wealth is counted in pigs and shells and given away in moka, a competitive gift exchange.",
     "clues": {
       "greeting": "Visitors are welcomed with sweet potato roasted in the ashes.",
       "dress": "Bird-of-paradise plumes, shell ornaments and painted faces at the show.",
       "food": "Mumu: pork and sweet potato cooked under hot stones.",
       "music": "The kundu hourglass drum at a big singsing.",
       "symbols": "Moka: the competitive giving of pigs and shells."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Melpa, a Trans-New Guinea language"
+      },
+      {
+        "label": "Exchange",
+        "value": "Moka, competitive gift-giving of pigs and shells"
+      },
+      {
+        "label": "Festival",
+        "value": "The Mount Hagen Cultural Show"
+      },
+      {
+        "label": "Livelihood",
+        "value": "Sweet potato gardens and pig raising"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Melpa"
   },
   {
     "groupId": "12713",
-    "blurb": "Atoll dwellers spread across a vast stretch of ocean on both sides of the equator.",
+    "blurb": "Atoll dwellers of 33 islands spread across a vast stretch of ocean on both sides of the equator. Families live from fishing, coconuts and giant swamp taro, on land only a few metres above the sea. Village life centres on the maneaba, a great open-sided meeting house.",
     "clues": {
       "greeting": "Mauri! Hello, and a blessing.",
       "dress": "Grass skirts and pandanus-leaf crowns for dancing.",
       "food": "Coconut, breadfruit and giant swamp taro.",
       "music": "Dances with outstretched arms like soaring frigatebirds.",
       "symbols": "A frigatebird over the rising sun, on the flag."
-    }
+    },
+    "facts": [
+      {
+        "label": "Language",
+        "value": "Gilbertese (Taetae ni Kiribati), a Micronesian language of the Austronesian family"
+      },
+      {
+        "label": "Building",
+        "value": "The maneaba, the community meeting house"
+      },
+      {
+        "label": "First",
+        "value": "The Line Islands are among the first places on Earth to greet each new year"
+      },
+      {
+        "label": "Climate",
+        "value": "Rising seas threaten atolls only a few metres high"
+      }
+    ],
+    "learnMoreUrl": "https://en.wikipedia.org/wiki/Kiribati"
   }
 ]

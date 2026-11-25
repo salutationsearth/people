@@ -50,17 +50,32 @@ test(`${groupsPath} matches the Group contract`, () => {
 
 test("daily.json matches the DailyEntry contract", () => {
   assert.ok(daily.length >= 50, "daily pool has at least 50 entries");
+  assert.ok(daily.every((d) => d.facts && d.learnMoreUrl), "every daily entry has facts and a learn-more link");
   assert.equal(new Set(daily.map((d) => d.groupId)).size, daily.length, "daily group ids are unique");
   for (const d of daily) {
     const at = `daily ${d.groupId}`;
-    assert.deepEqual(Object.keys(d).sort(), ["blurb", "clues", "groupId"], at);
+    assert.ok(
+      Object.keys(d).every((k) => ["blurb", "clues", "facts", "groupId", "learnMoreUrl"].includes(k)),
+      `${at} has only contract keys`,
+    );
     assert.deepEqual(Object.keys(d.clues).sort(), ["dress", "food", "greeting", "music", "symbols"], at);
-    assert.ok(isString(d.blurb) && d.blurb.length <= 160, `${at}.blurb`);
+    assert.ok(isString(d.blurb) && d.blurb.length <= 500, `${at}.blurb`);
+    const sentences = d.blurb.split(/(?<=[.!?])\s+(?=[A-Z])/).length;
+    assert.ok(sentences >= 3 && sentences <= 4, `${at}.blurb has 3-4 sentences (${sentences})`);
     for (const [key, clue] of Object.entries(d.clues)) assert.ok(isString(clue) && clue.length <= 120, `${at}.clues.${key}`);
+    if (d.facts !== undefined) {
+      assert.ok(d.facts.length >= 3 && d.facts.length <= 5, `${at}.facts has 3-5 items`);
+      for (const f of d.facts) {
+        assert.deepEqual(Object.keys(f).sort(), ["label", "value"], `${at}.facts`);
+        assert.ok(isString(f.label) && f.label.length <= 24 && isString(f.value) && f.value.length <= 160, `${at}.facts ${f.label}`);
+      }
+      assert.equal(new Set(d.facts.map((f) => f.label)).size, d.facts.length, `${at}.facts labels are unique`);
+    }
+    if (d.learnMoreUrl !== undefined) assert.match(d.learnMoreUrl, /^https:\/\/en\.wikipedia\.org\/wiki\/[^\s]+$/, `${at}.learnMoreUrl`);
   }
 });
 
-test("every daily answer is a group with a photo and its clues do not give the name away", () => {
+test("every daily answer is a group with a photo and its blurb and clues do not give the name away", () => {
   for (const d of daily) {
     const g = byId.get(d.groupId);
     assert.ok(g, `daily ${d.groupId} exists in ${groupsPath}`);

@@ -22,4 +22,6 @@ export type DailyEntry = {
   groupId: string;
   blurb: string;
   clues: { greeting: string; dress: string; food: string; music: string; symbols: string };
+  facts?: { label: string; value: string }[];
+  learnMoreUrl?: string;
 };

@@ -22,18 +22,15 @@ type Props = {
   onNewDay: () => void;
 };
 
-function msToMidnight() {
-  const now = new Date();
-  return new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1).getTime() - now.getTime();
-}
-
 function Countdown({ onNewDay }: { onNewDay: () => void }) {
   const [ms, setMs] = useState<number | null>(null);
   useEffect(() => {
+    const now = new Date();
+    const midnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1).getTime();
     const tick = () => {
-      const left = msToMidnight();
-      setMs(left);
-      if (left < 1000) onNewDay();
+      const left = midnight - Date.now();
+      setMs(Math.max(0, left));
+      if (left <= 0) onNewDay();
     };
     tick();
     const id = setInterval(tick, 1000);

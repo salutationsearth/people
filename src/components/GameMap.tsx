@@ -123,7 +123,7 @@ export function GameMap({ groups, guesses, answer, reveal, interactive = true }:
             },
           ],
         },
-        center: [answer.lon, 10],
+        center: [0, 10],
         zoom: 1.2,
         minZoom: 0.5,
         maxZoom: 7,

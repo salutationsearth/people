@@ -32,13 +32,19 @@ function read<T>(key: string): T | null {
   }
 }
 
+function write(key: string, value: unknown) {
+  try {
+    localStorage.setItem(key, JSON.stringify(value));
+  } catch {}
+}
+
 export function loadProgress(day: number): string[] {
   const p = read<Progress>(PROGRESS_KEY);
   return p && p.day === day ? p.guesses : [];
 }
 
 export function saveProgress(progress: Progress) {
-  localStorage.setItem(PROGRESS_KEY, JSON.stringify(progress));
+  write(PROGRESS_KEY, progress);
 }
 
 export function loadStats(): Stats {
@@ -63,7 +69,7 @@ export function applyResult(stats: Stats, day: number, won: boolean, guesses: nu
 
 export function recordResult(day: number, won: boolean, guesses: number): Stats {
   const next = applyResult(loadStats(), day, won, guesses);
-  localStorage.setItem(STATS_KEY, JSON.stringify(next));
+  write(STATS_KEY, next);
   return next;
 }
 
@@ -72,5 +78,5 @@ export function hasSeenHowToPlay(): boolean {
 }
 
 export function markHowToPlaySeen() {
-  localStorage.setItem(SEEN_KEY, "true");
+  write(SEEN_KEY, true);
 }

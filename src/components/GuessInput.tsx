@@ -91,7 +91,7 @@ export function GuessInput({ groups, exclude, onGuess }: Props) {
           onBlur={() => setOpen(false)}
           onKeyDown={onKeyDown}
         />
-        <button type="submit" className={styles.button}>
+        <button type="submit" className={styles.button} onMouseDown={(e) => e.preventDefault()}>
           Guess
         </button>
       </form>

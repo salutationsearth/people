@@ -28,8 +28,10 @@ export function useTheme() {
   const toggle = () => {
     const next: Theme = current() === "dark" ? "light" : "dark";
     const system: Theme = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
-    if (next === system) localStorage.removeItem(KEY);
-    else localStorage.setItem(KEY, next);
+    try {
+      if (next === system) localStorage.removeItem(KEY);
+      else localStorage.setItem(KEY, next);
+    } catch {}
     document.documentElement.dataset.theme = next;
   };
 

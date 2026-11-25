@@ -2,10 +2,10 @@
 
 import { useId, useMemo, useState, type KeyboardEvent } from "react";
 import { normalize, search, type GroupSummary } from "@/lib/game";
-import { Enter, SearchIcon } from "./Icons";
+import { SearchIcon } from "./Icons";
 import styles from "./GuessInput.module.css";
 
-const SHOWN = 6;
+const SHOWN = 5;
 
 type Props = { groups: GroupSummary[]; exclude: Set<string>; onGuess: (group: GroupSummary) => void };
 
@@ -72,7 +72,7 @@ export function GuessInput({ groups, exclude, onGuess }: Props) {
         <input
           className={styles.input}
           value={query}
-          placeholder="Type a people, tribe or ethnic group"
+          placeholder="Type a people…"
           role="combobox"
           aria-label="Your guess"
           aria-expanded={expanded}
@@ -114,7 +114,6 @@ export function GuessInput({ groups, exclude, onGuess }: Props) {
                 onMouseEnter={() => setActive(i)}
                 onClick={() => pick(r.group)}
               >
-                <span className={styles.dot} aria-hidden />
                 <span className={styles.text}>
                   <span className={styles.name}>
                     <Highlight label={r.viaAlias ? r.group.name : r.matched} query={r.viaAlias ? "" : query} />
@@ -129,15 +128,10 @@ export function GuessInput({ groups, exclude, onGuess }: Props) {
                     {r.group.countries.join(", ")}
                   </span>
                 </span>
-                {i === active && <Enter className={styles.enter} />}
               </li>
             ))}
           </ul>
-          <p className={styles.footer}>
-            {results.length > SHOWN ? `${results.length - SHOWN} more matches · ` : ""}
-            <span className={styles.keys}>↑↓ to move, ↵ to guess, Esc to close</span>
-            <span className={styles.touch}>keep typing to narrow</span>
-          </p>
+          {results.length > SHOWN && <p className={styles.footer}>+{results.length - SHOWN} more</p>}
         </div>
       )}
     </div>

@@ -17,7 +17,7 @@ export function Header({ onMap, onHelp, onStats }: Props) {
         </span>
       </div>
       <nav className={styles.actions} aria-label="Game">
-        <button className={styles.pill} onClick={onMap}>
+        <button className={styles.pill} onClick={onMap} aria-label="Map">
           <MapIcon />
           <span>Map</span>
         </button>

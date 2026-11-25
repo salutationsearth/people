@@ -28,14 +28,14 @@ export function Game() {
   const [guessIds, setGuessIds] = useState<string[]>([]);
   const [stats, setStats] = useState<Stats | null>(null);
   const [panel, setPanel] = useState<Panel>(null);
-  const [animateLast, setAnimateLast] = useState(false);
+  const [fresh, setFresh] = useState(false);
 
   const startDay = useCallback(() => {
     const now = new Date();
     setToday(now);
     setGuessIds(loadProgress(dayIndex(now)));
     setStats(loadStats());
-    setAnimateLast(false);
+    setFresh(false);
   }, []);
 
   useEffect(() => {
@@ -74,7 +74,7 @@ export function Game() {
     if (over || day === null || !entry) return;
     const next = [...guessIds, group.id];
     setGuessIds(next);
-    setAnimateLast(true);
+    setFresh(true);
     saveProgress({ day, guesses: next });
     const correct = group.id === entry.groupId;
     if (correct || next.length >= MAX_GUESSES) setStats(recordResult(day, correct, next.length));
@@ -86,19 +86,12 @@ export function Game() {
   };
 
   const misses = guessed.filter((id) => id !== entry?.groupId).length;
-  const freeClues = answer?.photo ? 0 : 1;
-  const guessPoints = guessed.map((id) => data!.byId.get(id)!);
-  const unlocked = Math.min(CLUE_COUNT, misses + freeClues);
+  const unlocked = Math.min(CLUE_COUNT, misses + (answer?.photo ? 0 : 1));
+  const puzzle = day === null ? 0 : day + 1;
 
   return (
     <>
-      <Header
-        puzzle={day === null || !entry ? null : day + 1}
-        date={today}
-        onMap={() => setPanel("map")}
-        onHelp={() => setPanel("help")}
-        onStats={() => setPanel("stats")}
-      />
+      <Header onMap={() => setPanel("map")} onHelp={() => setPanel("help")} onStats={() => setPanel("stats")} />
       <main className={styles.main}>
         {error ? (
           <p className={styles.status}>{error}</p>
@@ -109,91 +102,62 @@ export function Game() {
         ) : over && !answer ? (
           <p className={styles.status}>Loading today&apos;s answer…</p>
         ) : over && answer ? (
-          <EndView
-            index={data.index}
-            answer={answer}
-            entry={entry}
-            rows={rows}
-            won={won}
-            puzzle={day! + 1}
-            stats={stats}
-            onNewDay={startDay}
-          />
+          <EndView index={data.index} answer={answer} entry={entry} rows={rows} won={won} puzzle={puzzle} stats={stats} onNewDay={startDay} />
         ) : (
           <div className={styles.play}>
             <aside className={styles.left}>
-              {answer?.photo && <Portrait photo={answer.photo} badge="Today's portrait" />}
-              <div>
-                <h1 className={styles.title}>Which people is today&apos;s person part of?</h1>
-                <p className={styles.sub}>One person never stands for a whole people. The clues do the real work.</p>
-              </div>
-              <Clues
-                clues={entry.clues}
-                unlocked={unlocked}
-                freeClues={freeClues}
-                title="Clues"
-                note={`${unlocked} of ${CLUE_COUNT} · a new one after each miss`}
-              />
+              {answer?.photo ? (
+                <Portrait photo={answer.photo} badge={`No. ${puzzle}`} />
+              ) : (
+                <p className={styles.number}>No. {puzzle}</p>
+              )}
+              <Clues clues={entry.clues} unlocked={unlocked} />
             </aside>
             <section className={styles.right} aria-label="Guesses">
               <div className={styles.progress}>
-                <h2>
-                  Guess <strong>{rows.length + 1}</strong> of {MAX_GUESSES}
-                </h2>
+                <h1>
+                  Guess {guessed.length + 1}
+                  <span>/{MAX_GUESSES}</span>
+                </h1>
                 <ol className={styles.pips} aria-hidden>
                   {Array.from({ length: MAX_GUESSES }, (_, i) => (
-                    <li key={i} className={i < rows.length ? styles.used : i === rows.length ? styles.current : ""} />
+                    <li key={i} className={i < guessed.length ? styles.used : i === guessed.length ? styles.current : ""} />
                   ))}
                 </ol>
               </div>
+              {guessed.length > rows.length ? (
+                <p className={styles.status}>Loading your guesses…</p>
+              ) : (
+                <Board rows={rows} fresh={fresh} newestFirstOnMobile />
+              )}
               <div className={styles.inputSlot}>
                 <GuessInput groups={data.index} exclude={exclude} onGuess={guess} />
-              </div>
-              <div className={styles.boardSlot}>
-                {guessed.length > rows.length ? (
-                  <p className={styles.status}>Loading your guesses…</p>
-                ) : (
-                  <Board rows={rows} animateLast={animateLast} newestFirstOnMobile />
-                )}
               </div>
             </section>
           </div>
         )}
       </main>
-      <Footer photo={over ? answer?.photo : null} />
+      <Footer photo={answer?.photo} />
 
       {panel === "help" && <HowToPlay onClose={closePanel} />}
       {panel === "stats" && stats && (
-        <Modal title="Your stats" onClose={closePanel}>
+        <Modal title="Stats" onClose={closePanel}>
           <StatsNumbers stats={stats} />
-          <h3 className={styles.modalH3}>Guess distribution</h3>
-          <Distribution stats={stats} highlight={won ? rows.length : undefined} />
+          <Distribution stats={stats} highlight={won ? guessed.length : undefined} />
         </Modal>
       )}
       {panel === "map" && data && target && (
-        <Modal
-          title="Map of peoples"
-          subtitle="Every dot is a people's homeland. Arrows point toward today's answer."
-          variant="side"
-          onClose={closePanel}
-        >
+        <Modal title="Map" variant="side" onClose={closePanel}>
           <div className={styles.mapWrap}>
-            <GameMap groups={data.index} guesses={guessPoints} answer={target} reveal={over} />
+            <GameMap groups={data.index} guesses={guessed.map((id) => data.byId.get(id)!)} answer={target} reveal={over} />
             <p className={styles.mapNote}>
-              <svg width="32" height="10" viewBox="0 0 32 10" aria-hidden>
-                <path d="M1 5h24" stroke="var(--accent)" strokeWidth="3" strokeLinecap="round" />
-                <path d="M31 5l-8-4.5v9z" fill="var(--accent)" />
+              <svg width="30" height="12" viewBox="0 0 30 12" aria-hidden>
+                <path d="M1 6h20" stroke="var(--color-cobalt)" strokeWidth="3" strokeLinecap="round" />
+                <path d="M29 6l-9-5v10z" fill="var(--color-cobalt)" />
               </svg>
-              <span>
-                <strong>Direction only.</strong> Arrows stay the same length at every zoom.
-              </span>
+              Direction only
             </p>
           </div>
-          <p className={styles.legend}>
-            <span className={styles.legendDot} /> People-group homeland · {data.index.length.toLocaleString("en")} groups
-            <span className={styles.legendGuess} /> Your guess
-            <span>Tap a dot to see its name</span>
-          </p>
         </Modal>
       )}
     </>

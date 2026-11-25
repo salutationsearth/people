@@ -88,19 +88,26 @@ export function GameMap({ groups, guesses, answer, reveal, interactive = true }:
             land: { type: "geojson", data: "/map/land.geojson", attribution: "Natural Earth" },
             groups: { type: "geojson", data: { type: "FeatureCollection", features: groups.map((g) => point(g, { name: g.name })) } },
             arrows: { type: "geojson", data: { type: "FeatureCollection", features: [] } },
+            joins: { type: "geojson", data: { type: "FeatureCollection", features: [] } },
           },
           layers: [
-            { id: "sea", type: "background", paint: { "background-color": token("--sea") } },
-            { id: "land", type: "fill", source: "land", paint: { "fill-color": token("--land") } },
-            { id: "land-line", type: "line", source: "land", paint: { "line-color": token("--land-line"), "line-width": 0.8 } },
+            { id: "sea", type: "background", paint: { "background-color": token("--color-sea") } },
+            { id: "land", type: "fill", source: "land", paint: { "fill-color": token("--color-land") } },
+            { id: "land-line", type: "line", source: "land", paint: { "line-color": token("--color-line"), "line-width": 0.8 } },
             {
               id: "groups",
               type: "circle",
               source: "groups",
               paint: {
-                "circle-color": token("--dot"),
+                "circle-color": token("--color-dot"),
                 "circle-radius": ["interpolate", ["linear"], ["zoom"], 1, 2, 5, 4],
               },
+            },
+            {
+              id: "joins",
+              type: "line",
+              source: "joins",
+              paint: { "line-color": token("--color-cobalt"), "line-width": 1.5, "line-dasharray": [2, 2.5] },
             },
             {
               id: "arrows",
@@ -129,7 +136,7 @@ export function GameMap({ groups, guesses, answer, reveal, interactive = true }:
       instance.touchZoomRotate.disableRotation();
       instance.keyboard.disableRotation();
       if (interactive) instance.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
-      const arrow = arrowImage(token("--accent"));
+      const arrow = arrowImage(token("--color-cobalt"));
       instance.addImage(ARROW_IMAGE, arrow.data, { pixelRatio: arrow.pixelRatio });
       const popup = new maplibregl.Popup({ closeButton: false, className: styles.popup, offset: 8 });
       instance.on("click", "groups", (e) => {
@@ -140,6 +147,9 @@ export function GameMap({ groups, guesses, answer, reveal, interactive = true }:
       instance.on("mouseenter", "groups", (e) => (e.target.getCanvas().style.cursor = "pointer"));
       instance.on("mouseleave", "groups", (e) => (e.target.getCanvas().style.cursor = ""));
       map = instance;
+      const observer = new ResizeObserver(() => instance.resize());
+      observer.observe(container.current);
+      instance.once("remove", () => observer.disconnect());
       instance.on("load", (e) => {
         if (cancelled) return;
         mapRef.current = e.target;
@@ -163,7 +173,17 @@ export function GameMap({ groups, guesses, answer, reveal, interactive = true }:
       const wrong = guesses.filter((g) => g.id !== answer.id);
       (map.getSource("arrows") as GeoJSONSource).setData({
         type: "FeatureCollection",
-        features: wrong.map((g) => point(g, { bearing: bearing(g, answer) })),
+        features: reveal ? [] : wrong.map((g) => point(g, { bearing: bearing(g, answer) })),
+      });
+      (map.getSource("joins") as GeoJSONSource).setData({
+        type: "FeatureCollection",
+        features: reveal
+          ? wrong.map((g) => ({
+              type: "Feature" as const,
+              properties: {},
+              geometry: { type: "LineString" as const, coordinates: [[g.lon, g.lat], [answer.lon, answer.lat]] },
+            }))
+          : [],
       });
       markers.current.forEach((m) => m.remove());
       markers.current = guesses
@@ -174,7 +194,9 @@ export function GameMap({ groups, guesses, answer, reveal, interactive = true }:
       if (shown.length === 0) return;
       const bounds = new maplibregl.LngLatBounds();
       shown.forEach((g) => bounds.extend([g.lon, g.lat]));
-      map.fitBounds(bounds, { padding: 90, maxZoom: 4.5, duration: 0 });
+      const { width, height } = map.getContainer().getBoundingClientRect();
+      map.resize();
+      map.fitBounds(bounds, { padding: Math.min(90, width / 5, height / 5), maxZoom: 4.5, duration: 0 });
     };
     draw();
     return () => {
@@ -185,11 +207,12 @@ export function GameMap({ groups, guesses, answer, reveal, interactive = true }:
   useEffect(() => {
     const map = mapRef.current;
     if (!ready || !map) return;
-    map.setPaintProperty("sea", "background-color", token("--sea"));
-    map.setPaintProperty("land", "fill-color", token("--land"));
-    map.setPaintProperty("land-line", "line-color", token("--land-line"));
-    map.setPaintProperty("groups", "circle-color", token("--dot"));
-    map.updateImage(ARROW_IMAGE, arrowImage(token("--accent")).data);
+    map.setPaintProperty("sea", "background-color", token("--color-sea"));
+    map.setPaintProperty("land", "fill-color", token("--color-land"));
+    map.setPaintProperty("land-line", "line-color", token("--color-line"));
+    map.setPaintProperty("groups", "circle-color", token("--color-dot"));
+    map.setPaintProperty("joins", "line-color", token("--color-cobalt"));
+    map.updateImage(ARROW_IMAGE, arrowImage(token("--color-cobalt")).data);
   }, [ready, theme]);
 
   return <div ref={container} className={styles.map} data-testid="game-map" />;

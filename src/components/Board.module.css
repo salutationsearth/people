@@ -6,8 +6,8 @@
 .head,
 .row {
   display: grid;
-  grid-template-columns: 140px repeat(7, minmax(0, 1fr)) minmax(0, 1.2fr);
-  gap: 8px;
+  grid-template-columns: 124px repeat(7, minmax(0, 1fr)) minmax(0, 1.2fr);
+  gap: 6px;
 }
 
 .head {
@@ -69,13 +69,14 @@
   grid-template-areas: "value value" ". icon";
   grid-template-columns: minmax(0, 1fr) auto;
   align-content: space-between;
-  height: 66px;
-  padding: 9px 9px 9px 11px;
+  min-height: 66px;
+  padding: 9px 8px 9px 10px;
   border-radius: var(--radius-tile);
   box-shadow: 0 3px 0 var(--color-tile-shadow);
-  font-size: var(--text-sm);
+  font-size: 13.5px;
   font-weight: 700;
   line-height: 17px;
+  letter-spacing: -0.01em;
   min-width: 0;
 }
 
@@ -132,7 +133,7 @@
 
 .distance,
 .found {
-  grid-template-areas: "value icon" "label label";
+  grid-template-areas: "value value" "label icon";
 }
 
 .distance {
@@ -163,10 +164,6 @@
   color: var(--color-cobalt);
 }
 
-.distance .icon,
-.found .icon {
-  align-self: start;
-}
 
 .fresh .tile {
   animation: flip 420ms ease-out both;
@@ -218,9 +215,9 @@
   .name {
     grid-column: 1 / -1;
     flex-direction: row;
+    justify-content: flex-start;
     align-items: baseline;
     gap: 10px;
-    order: -1;
   }
 
   .groupName {
@@ -239,17 +236,29 @@
   .distance,
   .found {
     grid-template-areas: "label icon" "value value";
-    height: 76px;
-    padding: 10px 10px 10px 12px;
+    min-height: 72px;
+    padding: 9px 8px 9px 10px;
+    gap: 4px;
   }
 
   .label {
     display: block;
+    font-size: 11px;
+  }
+
+  .distance .label,
+  .found .label {
+    font-size: 11px;
+  }
+
+  .icon svg {
+    width: 14px;
+    height: 14px;
   }
 
   .value {
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 14px;
+    line-height: 17px;
   }
 
   .long {

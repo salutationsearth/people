@@ -18,7 +18,7 @@
 
 .numbers dt {
   font-size: 13px;
-  color: var(--ink-muted);
+  color: var(--color-ink-muted);
 }
 
 .distribution {
@@ -40,12 +40,12 @@
   display: block;
   padding: 2px 8px;
   border-radius: 4px;
-  background: var(--miss);
-  color: var(--miss-ink);
+  background: var(--color-miss);
+  color: var(--color-on-miss);
   text-align: right;
 }
 
 .bar.current {
-  background: var(--match);
-  color: var(--match-ink);
+  background: var(--color-match);
+  color: var(--color-on-match);
 }

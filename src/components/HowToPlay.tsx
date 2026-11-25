@@ -1,7 +1,7 @@
 import type { Feedback } from "@/lib/game";
 import type { Group } from "@/lib/types";
 import { Tiles } from "./Board";
-import { ArrowUp, Check, Cross, Half, MapIcon, Pointer, Speech } from "./Icons";
+import { ArrowUp, Check, Cross, Half, Pointer, Speech } from "./Icons";
 import { Modal } from "./Modal";
 import styles from "./HowToPlay.module.css";
 
@@ -42,23 +42,21 @@ const FEEDBACK: Feedback = {
 };
 
 const KEY = [
-  { icon: <Check />, tone: "match", title: "Match", text: "Same as the answer" },
-  { icon: <Half />, tone: "partial", title: "Partly", text: "Shares at least one main country" },
-  { icon: <Cross />, tone: "miss", title: "No match", text: "Different from the answer" },
-  { icon: <ArrowUp />, tone: "neutral", title: "Population", text: "The answer has more (↑) or fewer (↓) people" },
-  { icon: <Pointer style={{ transform: "rotate(275deg)" }} />, tone: "distance", title: "Distance", text: "Kilometres and compass direction from your guess's homeland to the answer's, plus how close you are as a %" },
+  { icon: <Check />, tone: "match", text: "Match" },
+  { icon: <Half />, tone: "partial", text: "Shares a country" },
+  { icon: <Cross />, tone: "miss", text: "No match" },
+  { icon: <ArrowUp />, tone: "neutral", text: "More ↑ / fewer ↓ people" },
+  { icon: <Pointer style={{ transform: "rotate(275deg)" }} />, tone: "distance", text: "Distance + direction" },
+  { icon: <Speech />, tone: "distance", text: "New clue each miss" },
 ];
 
 export function HowToPlay({ onClose }: { onClose: () => void }) {
   return (
     <Modal title="How to play" onClose={onClose}>
-      <p className={styles.lede}>
-        Find today&apos;s people in 6 guesses. Type any people, tribe or ethnic group and pick it from the list. Every guess is compared with the
-        answer.
-      </p>
+      <p className={styles.lede}>Guess today&apos;s people in 6 tries.</p>
       <section>
         <p className={styles.example}>
-          <span className={styles.kicker}>Example</span> <strong>Ewe</strong> <span>Ghana, Togo</span>
+          <strong>Ewe</strong> <span>Ghana, Togo</span>
         </p>
         <div className={styles.tiles} role="table" aria-label="Example guess">
           <div role="row" className={styles.tilesRow}>
@@ -68,41 +66,22 @@ export function HowToPlay({ onClose }: { onClose: () => void }) {
       </section>
       <ul className={styles.key}>
         {KEY.map((k) => (
-          <li key={k.title}>
+          <li key={k.text}>
             <span className={`${styles.swatch} ${styles[k.tone]}`}>{k.icon}</span>
-            <div>
-              <strong>{k.title}</strong>
-              <p>{k.text}</p>
-            </div>
+            {k.text}
           </li>
         ))}
       </ul>
-      <ul className={`${styles.key} ${styles.more}`}>
-        <li>
-          <span className={`${styles.swatch} ${styles.distance}`}>
-            <Speech />
-          </span>
-          <div>
-            <strong>A clue after every miss</strong>
-            <p>A greeting, traditional dress, a staple food, music or a festival, then symbols.</p>
-          </div>
-        </li>
-        <li>
-          <span className={`${styles.swatch} ${styles.distance}`}>
-            <MapIcon />
-          </span>
-          <div>
-            <strong>Arrows on the map</strong>
-            <p>They point toward the answer but never change length, so they show direction, not distance.</p>
-          </div>
-        </li>
-      </ul>
-      <footer className={styles.footer}>
-        <p>One person never stands for a whole people, and group names follow what members call themselves where we can.</p>
-        <button className={styles.start} onClick={onClose}>
-          Start guessing
-        </button>
-      </footer>
+      <p className={styles.note}>
+        <svg width="32" height="12" viewBox="0 0 32 12" aria-hidden>
+          <path d="M1 6h22" stroke="var(--color-cobalt)" strokeWidth="3" strokeLinecap="round" />
+          <path d="M31 6l-9-5v10z" fill="var(--color-cobalt)" />
+        </svg>
+        Map arrows show direction, never distance.
+      </p>
+      <button className={styles.start} onClick={onClose}>
+        Let&apos;s play
+      </button>
     </Modal>
   );
 }
